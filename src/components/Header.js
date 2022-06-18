@@ -10,11 +10,11 @@ const Header = () => {
                 </div>
                 <div className='container upperHeaderText'>
                     <div className='phoneText'>
-                        <p>Client Services: (123)456-7890</p>
+                        <p className="noMobile">Client Services:</p><p>(123)456-7890</p>
                     </div>
                     <div className='emailSocialText'>
                         <p className='emailInfo'>Email: info@example.com</p>
-                        <ul className='socialFlexContainer'>
+                        <ul className='socialFlexContainer noMobile'>
                             <li className='socialIcon'>FB</li>
                             <li className='socialIcon'>TW</li>
                             <li className='socialIcon'>IG</li>

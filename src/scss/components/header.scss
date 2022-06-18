@@ -14,11 +14,17 @@
                 height: 100%;
                 width: 45%;
                 background: orange;
+                @media only screen and (max-width: 820px){
+                    width: 50%;
+                }
             }
             .darkDiv{
                 height: 100%;
-                width: 100%;
+                width: 65%;
                 background: darkgreen;
+                @media only screen and (max-width: 820px){
+                    width: 50%;
+                }
             }
         }
         .upperHeaderText{
@@ -34,16 +40,26 @@
                 height: 100%;
                 padding-right: 1rem;
                 display: flex;
+                flex-flow: row wrap;
                 align-items: center;
+                @media only screen and (max-width: 767px){
+                    width: 50%;
+                }
             }
             .emailSocialText{
                 display: flex;
                 flex-flow: row nowrap;
                 align-items: center;
                 z-index: 1000;
+                @media only screen and (max-width: 767px){
+                    width: 50%;
+                }
                 .emailInfo{
                     padding: 0 1rem 0 0;
                     border-right: 1px solid white;
+                    @media only screen and (max-width: 767px){
+                        border: none;
+                    }
                 }
                 .socialFlexContainer{
                     display: flex;
@@ -68,6 +84,9 @@
             font-size: 2rem;
             font-weight: bold;
             color: orange;
+            @media only screen and (max-width: 820px){
+                font-size: 1.7rem;
+            }
         }
         .headerMenu{
             font-size: 1.25rem;
@@ -75,6 +94,13 @@
             flex-flow: row nowrap;
             font-weight: bold;
             letter-spacing: 1px;
+            @media only screen and (max-width: 767px){
+                position: absolute;
+                display: none;
+            }
+            @media only screen and (max-width: 820px){
+                font-size: 1rem;
+            }
             li{
                 padding: 0 .5rem;
                 &:nth-schild(6){
@@ -84,4 +110,11 @@
         }
     }
 // ============================ LOWER ============================
+}
+@media only screen and (max-width: 767px){
+    .noMobile{
+        position: absolute;
+        display: none;
+        opacity: 0;
+    }
 }
