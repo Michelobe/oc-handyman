@@ -1,0 +1,87 @@
+.headerSection{
+    background: white;
+// ============================ UPPER ============================
+    .upperHeader{
+        position: relative;
+        .upperHeaderBackground{
+            width: 100%;
+            height: 3.25rem;
+            display: flex;
+            flex-flow: row nowrap;
+            position: absolute;
+            z-index: 1;
+            .orangeDiv{
+                height: 100%;
+                width: 45%;
+                background: orange;
+            }
+            .darkDiv{
+                height: 100%;
+                width: 100%;
+                background: darkgreen;
+            }
+        }
+        .upperHeaderText{
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            align-items: center;
+            height: 3.25rem;
+            color: white;
+            .phoneText{
+                z-index: 1000;
+                background: orange;
+                height: 100%;
+                padding-right: 1rem;
+                display: flex;
+                align-items: center;
+            }
+            .emailSocialText{
+                display: flex;
+                flex-flow: row nowrap;
+                align-items: center;
+                z-index: 1000;
+                .emailInfo{
+                    padding: 0 1rem 0 0;
+                    border-right: 1px solid white;
+                }
+                .socialFlexContainer{
+                    display: flex;
+                    flex-flow: row nowrap;
+                    padding: 0 0 0 1rem;
+                    .socialIcon{
+                        padding: .25rem;
+                    }
+                }
+            }
+        }
+    }
+// ============================ UPPER ============================
+// ============================ LOWER ============================
+    .lowerHeader{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        height: 5rem;
+        .logoContainer{
+            font-size: 2rem;
+            font-weight: bold;
+            color: orange;
+        }
+        .headerMenu{
+            font-size: 1.25rem;
+            display: flex;
+            flex-flow: row nowrap;
+            font-weight: bold;
+            letter-spacing: 1px;
+            li{
+                padding: 0 .5rem;
+                &:nth-schild(6){
+                    padding: 0 0 0 .5rem;
+                }
+            }
+        }
+    }
+// ============================ LOWER ============================
+}
