@@ -8,6 +8,10 @@
         position: relative;
         .largeImg{
             max-width: 75%;
+            @media only screen and (max-width: 767px){
+                position: relative;
+                left: 7%;
+            }
         }
         .smallImg{
             max-width: 50%;
@@ -15,32 +19,49 @@
             right: 14%;
             top: 68%;
             border: 1rem solid white;
+            @media only screen and (max-width: 1200px){
+                top: 38%;
+                right: 5%;
+            }
+        }
+        @media only screen and (max-width: 767px){
+            width: 100%;
+            padding: 0 0 8rem 0;
         }
     }
     .rightColumn{
         width: 55%;
         .headerDiv{
             border-left: .5rem solid orange;
-            margin-bottom: 2.5rem;
+            margin-bottom: 2rem;
             h6{
                 font-size: 1.25rem;
                 color: gray;
                 padding: .5rem 0 .25rem 1.25rem;
+                @media only screen and (max-width: 1200px){
+                    font-size: 1.1rem;
+                }
             }
             h1{
                 font-size: 2.5rem;
                 padding: .25rem 0 .5rem 1.25rem;
                 font-weight: bold;
             }
+            @media only screen and (max-width: 1200px){
+                margin-bottom: 1rem;
+            }
         }
         p:nth-of-type(1){
             color: rgb(90, 89, 89);
             font-weight: 600;
-            margin-bottom: 2rem;
+            margin-bottom: 1.5rem;
         }
         p{
             line-height: 1.5;
             color: gray;
+        }
+        @media only screen and (max-width: 767px){
+            width: 100%;
         }
     }
 }

@@ -20,7 +20,7 @@
             &:nth-child(2){
                 margin: 0 .5rem;
             }
-            @media only screen and (max-width: 900px){
+            @media only screen and (max-width: 1200px){
                 padding: 1rem 1.5rem;
             }
             @media only screen and (max-width: 767px){
@@ -38,19 +38,22 @@
                 i{
                     padding-left: 1px;
                 }
+                @media only screen and (max-width: 1200px){
+                    padding: .5rem;
+                }
             }
             h1{
                 font-size: 1.5rem;
                 font-weight: 600;
                 line-height: 1.2;
                 margin: 1.3rem 0 .5rem 0;
-                @media only screen and (max-width: 900px){
+                @media only screen and (max-width: 1200px){
                     font-size: 1.2rem;
                 }
             }
             p{
                 line-height: 1.5;
-                @media only screen and (max-width: 900px){
+                @media only screen and (max-width: 1200px){
                     font-size: .9rem;
                 }
             }
