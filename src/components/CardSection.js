@@ -15,7 +15,7 @@ const CardSection = () => {
               </div>
               <div className='card'>
                   <div className='iconContainer'>
-                    <i className="fas fa-cog"></i>
+                    <i className="fas fa-user-tie"></i>
                   </div>
                   <h1>Large Number of Services Provided</h1>
                   <p>We are a company providing all kinds of services throughout OC.</p>
@@ -23,7 +23,7 @@ const CardSection = () => {
               </div>
               <div className='card'>
                   <div className='iconContainer'>
-                    <i className="fas fa-cog"></i>
+                    <i className="fas fa-thumbs-up"></i>
                   </div>
                   <h1>Large Number of Services Provided</h1>
                   <p>We are a company providing all kinds of services throughout OC.</p>
