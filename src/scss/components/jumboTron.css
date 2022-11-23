@@ -1,0 +1,84 @@
+.jumboTron {
+    background: url("../../images/plier-hammer-crescent-wrench-tape-measure-tools.jpg") center center no-repeat;
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0px 10px 18px -10px rgba(0, 0, 0, 0.75);
+}
+@media only screen and (max-width: 1200px) {
+    .jumboTron {
+        height: 600px;
+   }
+}
+@media only screen and (max-width: 767px) {
+    .jumboTron {
+        height: 420px;
+   }
+}
+.jumboTron .coverContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.jumboTron .coverContainer .darkCover {
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, .95);
+    height: 100%;
+    width: 30%;
+}
+.jumboTron .coverContainer .lightCover {
+    top: 0;
+    right: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, .75);
+    height: 100%;
+    width: 70%;
+}
+.jumboTron .jumboText {
+    z-index: 6;
+}
+.jumboTron .jumboText h3 {
+    font-size: 1.5rem;
+    color: white;
+}
+@media only screen and (max-width: 767px) {
+    .jumboTron .jumboText h3 {
+        font-size: 1.2rem;
+   }
+}
+.jumboTron .jumboText h1 {
+    font-size: 6rem;
+    font-weight: bold;
+    padding: 0.25rem 0 1.75rem 0;
+}
+@media only screen and (max-width: 767px) {
+    .jumboTron .jumboText h1 {
+        font-size: 3.25rem;
+   }
+}
+.jumboTron .jumboText p {
+    font-size: 1.5rem;
+    color: white;
+}
+@media only screen and (max-width: 767px) {
+    .jumboTron .jumboText p {
+        font-size: 1.2rem;
+   }
+}
+.jumboTron .jumboText .ctaBtn {
+    background: orange;
+    padding: 0.5rem 2rem;
+    margin-top: 3rem;
+    border: none;
+    color: white;
+    font-size: 2rem;
+}

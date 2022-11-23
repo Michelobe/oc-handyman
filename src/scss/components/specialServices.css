@@ -1,0 +1,42 @@
+/* SECTION BACKGROUND */
+.specialServicesSection{
+    background: #FDA12B;
+    color: white;
+    padding: 3rem 0;
+    margin: 3rem 0;
+    position: relative;
+    height: 24rem;
+}
+
+/* LEFT COLUMN */
+.specialServicesSection .leftColumn {
+    width: 50%;
+}
+.specialServicesSection .leftColumn .headerDiv {
+    border-left: 0.5rem solid white;
+    margin-bottom: 2rem;
+}
+.specialServicesSection .leftColumn .headerDiv > h4 {
+    font-size: 1.25rem;
+    color: gray;
+    padding: 0.5rem 0 0.25rem 1.25rem;
+}
+.specialServicesSection .leftColumn .headerDiv > h2 {
+    font-size: 2.5rem;
+    padding: 0.25rem 0 0.5rem 1.25rem;
+    font-weight: bold;
+}
+.specialServicesSection .leftColumn .quickInfoCard{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+/* RIGHT COLUMN */
+.specialServicesSection .imgContainer {
+    position: relative;
+    left: 50%;
+    top: -21rem;
+    height: 100%;
+    width: 50%;
+    background-color: green;
+}

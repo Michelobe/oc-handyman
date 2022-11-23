@@ -23,19 +23,6 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            <div className=' container lowerHeader'>
-                <div className='logoContainer'>
-                    <p><span style={{textDecoration: 'underline'}}>OC</span> <span style={{color: 'darkGreen'}}>Handyman</span></p>
-                </div>
-                <ul className='headerMenu'>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li>Projects</li>
-                    <li>Our Team</li>
-                    <li>Contact</li>
-                </ul>
-            </div>
         </section>
     )
 };
