@@ -6,6 +6,7 @@
 @import './components/cardSection.css';
 @import './components/introSection.css';
 @import './components/specialServices.css';
+@import './components/projectsSection.css';
 
 body{
     font-family: 'Work Sans', sans-serif;

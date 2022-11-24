@@ -4,6 +4,7 @@ import JumboTron from './components/JumboTron.js';
 import CardSection from './components/CardSection.js';
 import IntroSection from './components/IntroSection.js';
 import SpecialServices from './components/SpecialServices.js';
+import ProjectsSection from './components/ProjectsSection.js';
 import './scss/App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
             <CardSection />
             <IntroSection />
             <SpecialServices />
+            <ProjectsSection />
         </div>
     );
 }

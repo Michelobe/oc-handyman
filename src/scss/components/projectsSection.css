@@ -1,0 +1,61 @@
+
+/* NAV */
+.projectsSection .projectsNav {
+    display: flex;
+    flex-flow: row;
+}
+.projectsSection .projectsHeader {
+    border-left: 0.5rem solid orange;
+    margin-bottom: 2rem;
+}
+.projectsSection .projectsHeader h6 {
+    font-size: 1.25rem;
+    color: gray;
+    padding: 0.5rem 0 0.25rem 1.25rem;
+}
+.projectsSection .projectsHeader h2 {
+    font-size: 2.5rem;
+    padding: 0.25rem 0 0.5rem 1.25rem;
+    font-weight: bold;
+}
+.projectsSection .projectsNavBtns {
+    display: flex;
+    flex-flow: row;
+}
+
+/* TILES */
+.projectsSection .projectTiles {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.projectsSection .projectTiles .projectTile {
+    position: relative;
+    width: 390px;
+    height: 275px;
+    color: white;
+    margin-bottom: 1rem;
+}
+.projectsSection .projectTiles .projectTile .tilePhoto{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    z-index: -1;
+}
+.projectsSection .projectTiles .projectTile .tileHoverPopup{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: white;
+    z-index: 6;
+}
+.projectsSection .projectTiles .projectTile .tileHoverPopup .tileContent{
+    margin: 2rem;
+    border: 1px solid white;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
