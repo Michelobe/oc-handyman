@@ -1,0 +1,72 @@
+
+
+
+.aboutTeam {
+    background-color: orange;
+    height:32rem;
+    position: relative;
+}
+.aboutTeam .sectionDownshift{
+    position: relative;
+    top: 5rem;
+}
+
+/* TEAM HEADER */
+.aboutTeam .aboutHeader {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.aboutTeam .headerDiv {
+    border-left: 0.5rem solid white;
+    margin-bottom: 1rem;
+}
+.aboutTeam .headerDiv > h4 {
+    font-size: 1.25rem;
+    color: white;
+    padding: 0.5rem 0 0.25rem 1.25rem;
+    text-transform: uppercase;
+}
+.aboutTeam .headerDiv > h2 {
+    font-size: 2.5rem;
+    padding: 0.25rem 0 0.5rem 1.25rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+.aboutTeam .headerInfo{
+    margin-bottom: 2.5rem;
+}
+.aboutTeam .headerInfo > .columnContent{
+    line-height: 1.5;
+}
+
+/* TEAM CONTENT */
+.aboutTeam .teamIntro{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    height: 35rem;
+}
+.aboutTeam .teamIntro .teammate{
+    margin: 0 .5rem;
+    width: 30%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.aboutTeam .teamIntro .teammate .teamPhoto{
+    width: 100%;
+    height: 80%;
+    background: green;
+}
+.aboutTeam .teamIntro .teammate > h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1.3rem 0 .35rem 0;
+}
+.aboutTeam .teamIntro .teammate > h6{
+    font-size: .9rem;
+}

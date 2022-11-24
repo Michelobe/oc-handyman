@@ -14,25 +14,25 @@ const ProjectsSection = () => {
                     </header>
                     <ul class='projectsNavBtns'>
                         <li>
-                            <button>All</button>
+                            <button className='projectButton'>All</button>
                         </li>
                         <li>
-                            <button>Electrical</button>
+                            <button className='projectButton'>Electrical</button>
                         </li>
                         <li>
-                            <button>Cabinetry</button>
+                            <button className='projectButton'>Cabinetry</button>
                         </li>
                         <li>
-                            <button>Painting</button>
+                            <button className='projectButton'>Painting</button>
                         </li>
                         <li>
-                            <button>Plumbing</button>
+                            <button className='projectButton'>Plumbing</button>
                         </li>
                         <li>
-                            <button>Flooring</button>
+                            <button className='projectButton'>Flooring</button>
                         </li>
                         <li>
-                            <button>Maintenance</button>
+                            <button className='projectButton'>Maintenance</button>
                         </li>
                     </ul>
                 </nav>
@@ -42,7 +42,8 @@ const ProjectsSection = () => {
                         <div className='tileHoverPopup'>
                             <div className='tileContent'>
                                 <h6>Painting, Plumbing</h6>
-                                <h2>Electrical, Orange - CA</h2>
+                                <h2>Electrical - Orange, CA</h2>
+                                <div className='tileBottomBorder'></div>
                             </div>
                         </div>
                     </div>
@@ -51,7 +52,8 @@ const ProjectsSection = () => {
                         <div className='tileHoverPopup'>
                             <div className='tileContent'>
                                 <h6>Painting, Plumbing</h6>
-                                <h2>Electrical, Orange - CA</h2>
+                                <h2>Electrical - Orange, CA</h2>
+                                <div className='tileBottomBorder'></div>
                             </div>
                         </div>
                     </div>
@@ -60,7 +62,8 @@ const ProjectsSection = () => {
                         <div className='tileHoverPopup'>
                             <div className='tileContent'>
                                 <h6>Painting, Plumbing</h6>
-                                <h2>Electrical, Orange - CA</h2>
+                                <h2>Electrical - Orange, CA</h2>
+                                <div className='tileBottomBorder'></div>
                             </div>
                         </div>
                     </div>
@@ -69,7 +72,8 @@ const ProjectsSection = () => {
                         <div className='tileHoverPopup'>
                             <div className='tileContent'>
                                 <h6>Painting, Plumbing</h6>
-                                <h2>Electrical, Orange - CA</h2>
+                                <h2>Electrical - Orange, CA</h2>
+                                <div className='tileBottomBorder'></div>
                             </div>
                         </div>
                     </div>
@@ -78,7 +82,8 @@ const ProjectsSection = () => {
                         <div className='tileHoverPopup'>
                             <div className='tileContent'>
                                 <h6>Painting, Plumbing</h6>
-                                <h2>Electrical, Orange - CA</h2>
+                                <h2>Electrical - Orange, CA</h2>
+                                <div className='tileBottomBorder'></div>
                             </div>
                         </div>
                     </div>
@@ -87,7 +92,8 @@ const ProjectsSection = () => {
                         <div className='tileHoverPopup'>
                             <div className='tileContent'>
                                 <h6>Painting, Plumbing</h6>
-                                <h2>Electrical, Orange - CA</h2>
+                                <h2>Electrical - Orange, CA</h2>
+                                <div className='tileBottomBorder'></div>
                             </div>
                         </div>
                     </div>

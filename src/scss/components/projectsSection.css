@@ -1,9 +1,12 @@
 
-/* NAV */
+/* NAVBAR */
 .projectsSection .projectsNav {
     display: flex;
     flex-flow: row;
+    justify-content: space-between;
 }
+
+/* NAV HEADER */
 .projectsSection .projectsHeader {
     border-left: 0.5rem solid orange;
     margin-bottom: 2rem;
@@ -18,9 +21,20 @@
     padding: 0.25rem 0 0.5rem 1.25rem;
     font-weight: bold;
 }
+
+/* NAV BUTTONS */
 .projectsSection .projectsNavBtns {
     display: flex;
     flex-flow: row;
+    align-items: center;
+}
+.projectsSection .projectsNavBtns .projectButton {
+    border: none;
+    background-color: transparent;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 /* TILES */
@@ -36,6 +50,7 @@
     color: white;
     margin-bottom: 1rem;
 }
+/* BACKGROUND */
 .projectsSection .projectTiles .projectTile .tilePhoto{
     position: absolute;
     width: 100%;
@@ -43,6 +58,7 @@
     background: black;
     z-index: -1;
 }
+/* HOVER TILE INFORMATION */
 .projectsSection .projectTiles .projectTile .tileHoverPopup{
     width: 100%;
     height: 100%;
@@ -51,11 +67,31 @@
     z-index: 6;
 }
 .projectsSection .projectTiles .projectTile .tileHoverPopup .tileContent{
-    margin: 2rem;
-    border: 1px solid white;
+    margin: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.365);
     width: 100%;
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
+}
+.projectsSection .projectTiles .projectTile .tileHoverPopup .tileContent > h6{
+    margin-bottom: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    color: orange;
+}
+.projectsSection .projectTiles .projectTile .tileHoverPopup .tileContent > h2{
+    margin-bottom: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+
+/* BOTTOM BORDER */
+.projectsSection .projectTiles .projectTile .tileBottomBorder{
+    width: 6rem;
+    height: .5rem;
+    border-bottom: 3px solid orange;
 }
