@@ -9,27 +9,31 @@ const SpecialServices = () => {
                     <h4>About OCHandyman</h4>
                     <h2>We Work For You</h2>
                 </div>
-                <div className='infoDiv'>
-                    <p>
+                <div className='headerInfo'>
+                    <p className='columnContent'>
                         Carpentry is a skilled trade and a craft in which the primary work performed is the cutting.
                     </p>
                 </div>
                 <div className='quickInfo'>
                     <div className='quickInfoCard'>
-                        <i className="fas fa-magic"></i>
+                        <div className='infoIconContainer'>
+                            <i className="fas fa-magic"></i>
+                        </div>
                         <div className='infoCardContent'>
                             <h5>Home Maintenance</h5>
-                            <p className='quickInfoP'>
-                                Carpentry is a skilled trade and a craft in which the primary work performed is the cutting.
+                            <p className='columnContent'>
+                                Carpentry is a skilled trade and a craft in which the primary work performed is the cutting.in which the primary work performed is the cutting.
                             </p>
                         </div>
                     </div>
                     <div className='quickInfoCard'>
-                        <i className="fas fa-magic"></i>
+                        <div className='infoIconContainer'>
+                            <i className="fas fa-magic"></i>
+                        </div>
                         <div className='infoCardContent'>
                             <h5>Home Maintenance</h5>
-                            <p className='quickInfoP'>
-                                Carpentry is a skilled trade and a craft in which the primary work performed is the cutting.
+                            <p className='columnContent'>
+                                Carpentry is a skilled trade and a craft in which the primary work performed is the cutting.in which the primary work performed is the cutting.
                             </p>
                         </div>
                     </div>
