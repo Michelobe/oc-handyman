@@ -26,9 +26,10 @@
 .footerSection .footerContent .footerCol{
     margin: 1.5rem;
     color: gray;
+    max-width: 15rem;
 }
 .footerSection .footerContent .footerCol .footerHeader{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     color: white;
     border-left: 3px solid orange;
@@ -43,7 +44,7 @@
     margin-left: 1rem; 
 }
 .footerSection .footerContent .footerCol .columnContent{
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
     color: white;
     line-height: 2.5;
