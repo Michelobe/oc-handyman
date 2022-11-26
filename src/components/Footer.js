@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <section className='footerSection'>
+        <footer className='footerSection'>
             <div className='container'>
                 <div className='footerCta'>
                     <h1>Check out the yelp page</h1>
@@ -10,7 +10,19 @@ const Footer = () => {
                 <div className='footerContent'>
                     <div className='footerCol'>
                         <h2 className='footerHeader'>OC Handyman</h2>
-                        <p className='columnContent'>We have the quality work you expect.</p>
+                        <p className='footerCaption'>We have the quality work you expect.</p>
+                        
+                        <h2 className='footerHeader'>Work Days</h2>
+                        <div className='workHours'>
+                            <div className='workday'>
+                                <p>Mon - Sat</p>
+                                <p>9am - 5pm</p>
+                            </div>
+                            <div className='workday'>
+                                <p>Sunday</p>
+                                <p className='closingTime'>Closed</p>
+                            </div>
+                        </div>
                     </div>
                     <div className='footerCol'>
                         <h2 className='footerHeader'>Useful Links</h2>
@@ -33,8 +45,11 @@ const Footer = () => {
                         <p className='columnContent'>contact Info</p>
                     </div>
                 </div>
+                <div className='footerCopyright'>
+                    <p>Copyright &copy; 2022 Michael De La Riva</p>
+                </div>
             </div>
-        </section>
+        </footer>
     );
 };
 

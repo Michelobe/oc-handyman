@@ -1,7 +1,6 @@
 
 
 .footerSection{
-    height: 28rem;
     background: rgb(0,100,0);
     position: relative;
 }
@@ -33,19 +32,55 @@
     font-weight: bold;
     color: white;
     border-left: 3px solid orange;
-    padding-left: .4rem;
+    padding-left: .55rem;
     margin-bottom: 1rem;
+}
+.footerSection .footerContent .footerCol .footerCaption{
+    font-size: .85rem;
+    letter-spacing: 1px;
+    color: white;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+.footerSection .footerContent .footerCol .workHours{
+    font-size: .85rem;
+    letter-spacing: 1px;
+    color: white;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+.footerSection .footerContent .footerCol .workHours .workday{
+    font-size: 1rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.507);
+}
+.footerSection .footerContent .footerCol .workHours .workday:nth-of-type(2){
+    padding-top: .5rem;
+}
+.footerSection .footerContent .footerCol .workHours .workday .closingTime{
+    color: orange;
+    font-weight: bold;
 }
 .footerSection .footerContent .footerCol .columnLinks{
     display: flex;
     flex-flow: row;
+    justify-content: space-between;
 }
 .footerSection .footerContent .footerCol .columnLinks > ul:nth-of-type(2){
-    margin-left: 1rem; 
+    margin-left: 1.75rem; 
 }
 .footerSection .footerContent .footerCol .columnContent{
     font-size: 1rem;
     font-weight: 600;
     color: white;
     line-height: 2.5;
+}
+.footerSection .footerCopyright{
+    padding: 1.5rem 0;
+    border-top: 1px solid rgba(128, 128, 128, 0.507);
+    color: gray;
+    font-size: .9rem;
 }
