@@ -6,6 +6,7 @@ import IntroSection from './components/IntroSection.js';
 import SpecialServices from './components/SpecialServices.js';
 import ProjectsSection from './components/ProjectsSection.js';
 import AboutTeam from './components/AboutTeam.js';
+import Footer from './components/Footer.js';
 import './scss/App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             <SpecialServices />
             <ProjectsSection />
             <AboutTeam />
+            <Footer />
         </div>
     );
 }

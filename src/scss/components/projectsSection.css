@@ -1,4 +1,11 @@
 
+
+
+/* PROJECTS SECTION */
+.projectsSection {
+    margin-bottom: 6rem;
+}
+
 /* NAVBAR */
 .projectsSection .projectsNav {
     display: flex;

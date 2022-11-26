@@ -3,8 +3,9 @@
 
 .aboutTeam {
     background-color: orange;
-    height:32rem;
+    height:34rem;
     position: relative;
+    margin-bottom: 18rem;
 }
 .aboutTeam .sectionDownshift{
     position: relative;

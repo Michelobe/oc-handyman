@@ -8,6 +8,7 @@
 @import './components/specialServices.css';
 @import './components/projectsSection.css';
 @import './components/aboutTeam.css';
+@import './components/footer.css';
 
 body{
     font-family: 'Work Sans', sans-serif;
