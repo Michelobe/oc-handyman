@@ -32,10 +32,16 @@
 /* NAV BUTTONS */
 .projectsSection .projectsNavBtns {
     display: flex;
-    flex-flow: row;
+    justify-content: center;
     align-items: center;
+    height: auto;
 }
-.projectsSection .projectsNavBtns .projectButton {
+.projectsSection .navBtns {
+    display: flex;
+    flex-flow: row;
+    height: 2rem;
+}
+.projectsSection .projectsNavBtns .navBtns .projectButton {
     border: none;
     background-color: transparent;
     padding: .5rem 1rem;

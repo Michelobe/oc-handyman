@@ -9,16 +9,6 @@
     position: relative;
     box-shadow: 0px 10px 18px -10px rgba(0, 0, 0, 0.75);
 }
-@media only screen and (max-width: 1200px) {
-    .jumboTron {
-        height: 600px;
-   }
-}
-@media only screen and (max-width: 767px) {
-    .jumboTron {
-        height: 420px;
-   }
-}
 .jumboTron .coverContainer {
     position: absolute;
     top: 0;
@@ -50,29 +40,14 @@
     font-size: 1.5rem;
     color: white;
 }
-@media only screen and (max-width: 767px) {
-    .jumboTron .jumboText h3 {
-        font-size: 1.2rem;
-   }
-}
 .jumboTron .jumboText h1 {
     font-size: 6rem;
     font-weight: bold;
     padding: 0.25rem 0 1.75rem 0;
 }
-@media only screen and (max-width: 767px) {
-    .jumboTron .jumboText h1 {
-        font-size: 3.25rem;
-   }
-}
 .jumboTron .jumboText p {
     font-size: 1.5rem;
     color: white;
-}
-@media only screen and (max-width: 767px) {
-    .jumboTron .jumboText p {
-        font-size: 1.2rem;
-   }
 }
 .jumboTron .jumboText .ctaBtn {
     background: orange;
@@ -81,4 +56,29 @@
     border: none;
     color: white;
     font-size: 2rem;
+}
+
+/* MEDI QUERIES */
+@media only screen and (max-width: 1200px) {
+    .jumboTron {
+        height: 600px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .jumboTron {
+        height: 420px;
+    }
+
+    .jumboTron .jumboText h3 {
+        font-size: 1.2rem;
+    }
+
+    .jumboTron .jumboText h1 {
+        font-size: 3.25rem;
+    }
+
+    .jumboTron .jumboText p {
+        font-size: 1.2rem;
+    }
 }

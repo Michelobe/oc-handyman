@@ -3,8 +3,8 @@ import React from 'react';
 const ProjectsSection = () => {
 
 
-    
-    return(
+
+    return (
         <section className='projectsSection'>
             <div className='container'>
                 <nav className='projectsNav'>
@@ -12,29 +12,31 @@ const ProjectsSection = () => {
                         <h6>Recently Completed</h6>
                         <h2>OCHandyman's Latest</h2>
                     </header>
-                    <ul class='projectsNavBtns'>
-                        <li>
-                            <button className='projectButton'>All</button>
-                        </li>
-                        <li>
-                            <button className='projectButton'>Electrical</button>
-                        </li>
-                        <li>
-                            <button className='projectButton'>Cabinetry</button>
-                        </li>
-                        <li>
-                            <button className='projectButton'>Painting</button>
-                        </li>
-                        <li>
-                            <button className='projectButton'>Plumbing</button>
-                        </li>
-                        <li>
-                            <button className='projectButton'>Flooring</button>
-                        </li>
-                        <li>
-                            <button className='projectButton'>Maintenance</button>
-                        </li>
-                    </ul>
+                    <div className='projectsNavBtns'>
+                        <ul class='navBtns'>
+                            <li>
+                                <button className='projectButton'>All</button>
+                            </li>
+                            <li>
+                                <button className='projectButton'>Electrical</button>
+                            </li>
+                            <li>
+                                <button className='projectButton'>Cabinetry</button>
+                            </li>
+                            <li>
+                                <button className='projectButton'>Painting</button>
+                            </li>
+                            <li>
+                                <button className='projectButton'>Plumbing</button>
+                            </li>
+                            <li>
+                                <button className='projectButton'>Flooring</button>
+                            </li>
+                            <li>
+                                <button className='projectButton'>Maintenance</button>
+                            </li>
+                        </ul>
+                    </div>
                 </nav>
                 <div className='projectTiles'>
                     <div className='projectTile'>
