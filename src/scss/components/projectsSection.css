@@ -17,6 +17,7 @@
 .projectsSection .projectsHeader {
     border-left: 0.5rem solid orange;
     margin-bottom: 2rem;
+    background: blue;
 }
 .projectsSection .projectsHeader h6 {
     font-size: 1.25rem;
