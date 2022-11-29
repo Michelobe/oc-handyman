@@ -39,7 +39,7 @@
 }
 .projectsSection .navBtns {
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     height: 2rem;
 }
 .projectsSection .projectsNavBtns .navBtns .projectButton {
@@ -109,3 +109,56 @@
     height: .5rem;
     border-bottom: 3px solid orange;
 }
+
+
+/* BREAKPOINTS */
+/* @media only screen and (max-width: 1300px){
+    .container{
+        width: 1150px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .container{
+        width: 1050px;
+    }
+}
+@media only screen and (max-width: 1120px){
+    .container{
+        width: 950px;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .container{
+        width: 880px;
+    }
+}
+@media only screen and (max-width: 920px){
+    .container{
+        width: 830px;
+    }
+}
+@media only screen and (max-width: 865px){
+    .container{
+        width: 790px;
+    }
+}
+@media only screen and (max-width: 820px){
+    .container{
+        width: 750px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .container{
+        width: 738px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .container{
+        width: 404px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .container{
+        width: 365px;
+    }
+} */

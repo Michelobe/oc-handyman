@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Header = () => {
+const MegaNav = () => {
     return (
         <section className='headerSection'>
             <div className='upperHeader'>
@@ -10,7 +10,7 @@ const Header = () => {
                 </div>
                 <div className='container upperHeaderText'>
                     <div className='phoneText'>
-                        <p className="noMobile">Client Services:</p><p>(123)456-7890</p>
+                        <i className="fas fa-mobile"></i><p className="noMobile">(123)456-7890</p>
                     </div>
                     <div className='emailSocialText'>
                         <p className='emailInfo'>Email: info@example.com</p>
@@ -27,4 +27,4 @@ const Header = () => {
     )
 };
 
-export default Header;
+export default MegaNav;

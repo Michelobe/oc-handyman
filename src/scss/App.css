@@ -1,14 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import './reset.css';
-@import './components/header.css';
+@import './components/includes/megaNav.css';
 @import './components/jumboTron.css';
 @import './components/cardSection.css';
 @import './components/introSection.css';
 @import './components/specialServices.css';
 @import './components/projectsSection.css';
 @import './components/aboutTeam.css';
-@import './components/footer.css';
+@import './components/includes/footer.css';
 
 body{
     font-family: 'Work Sans', sans-serif;
@@ -18,14 +18,39 @@ body{
     margin: 0 auto;
 }
 
+@media only screen and (max-width: 1300px){
+    .container{
+        width: 1150px;
+    }
+}
 @media only screen and (max-width: 1200px){
     .container{
-        width: 900px;
+        width: 1050px;
+    }
+}
+@media only screen and (max-width: 1120px){
+    .container{
+        width: 950px;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .container{
+        width: 880px;
+    }
+}
+@media only screen and (max-width: 920px){
+    .container{
+        width: 830px;
+    }
+}
+@media only screen and (max-width: 865px){
+    .container{
+        width: 790px;
     }
 }
 @media only screen and (max-width: 820px){
     .container{
-        width: 790px;
+        width: 750px;
     }
 }
 @media only screen and (max-width: 768px){

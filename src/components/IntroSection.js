@@ -15,7 +15,7 @@ const IntroSection = () => {
                     </div>
                     <div className='infoDiv'>
                         <p>
-                            Carpentry is a skilled trade and a craft in which the primary work performed is the cutting, shaping and installation of building materials during the construction of buildings, ships, timber bridges, concrete formwork, etc.
+                            Carpentry is a skilled trade and a craft in which the primary work performed is the cutting, shaping and installation of building materials.
                         </p>
                         <p>
                             Automotive technicians (the modern term of reference) have many trades within. Some may specialize in the electrical diagnosis, while others may specialize in the mechanical aspects. Other mechanical areas include: brakes and steering, suspension, automatic or manual transmission, engine repairs, auto body repairs or diagnosing customer complaints.
