@@ -5,8 +5,8 @@ const IntroSection = () => {
         <section className="introSection">
             <div className='container introSectionContainer'>
                 <div className='leftColumn'>
-                    <img src={require("../images/stock-photo-carpenter-sawing-wood.jpg")} alt="Carpenter sawing wood" className='largeImg' />
-                    <img src={require("../images/kitchen-long-photo-khaki.jpg")} alt="Carpenter sawing wood" className='smallImg' />
+                    <div className='lgPlaceholder'></div>
+                    <div className='smPlaceholder'></div>
                 </div>
                 <div className='rightColumn'>
                     <div className='headerDiv'>

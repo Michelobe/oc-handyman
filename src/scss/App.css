@@ -14,10 +14,40 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 .container{
-    width: 1200px;
+    width: 1850px;
     margin: 0 auto;
 }
 
+@media only screen and (max-width: 1900px){
+    .container{
+        width: 1750px;
+    }
+}
+@media only screen and (max-width: 1800px){
+    .container{
+        width: 1650px;
+    }
+}
+@media only screen and (max-width: 1700px){
+    .container{
+        width: 1550px;
+    }
+}
+@media only screen and (max-width: 1600px){
+    .container{
+        width: 1450px;
+    }
+}
+@media only screen and (max-width: 1500px){
+    .container{
+        width: 1350px;
+    }
+}
+@media only screen and (max-width: 1400px){
+    .container{
+        width: 1250px;
+    }
+}
 @media only screen and (max-width: 1300px){
     .container{
         width: 1150px;
