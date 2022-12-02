@@ -25,7 +25,7 @@ const CardSection = () => {
                   <div className='iconContainer'>
                     <i className="fas fa-thumbs-up"></i>
                   </div>
-                  <h1>The Trust Customers Can Always Depend Upon</h1>
+                  <h1>Trust Customers Can Always Depend Upon</h1>
                   <p>Providing happy customers throughout Orange County.</p>
                   <button>More Services</button>
               </div>

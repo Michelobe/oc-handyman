@@ -175,7 +175,7 @@
 }
 @media only screen and (max-width: 1062px) {
     .cardSection .cardContainer .card > h1 {
-        height: 69.09px;
+        height: 60px;
     }
 }
 @media only screen and (max-width: 1005px) {
@@ -188,11 +188,11 @@
         width: 24.5%;
     }
 }
-@media only screen and (max-width: 940px) {
+/* @media only screen and (max-width: 940px) {
     .cardSection .cardContainer .card > p {
         height: 64.83px;
     }
-}
+} */
 @media only screen and (max-width: 892px) {
     .cardSection .cardContainer .card {
         width: 24%;
@@ -203,6 +203,14 @@
         width: 28.2%;
         padding: 2rem 1rem;
     }
+    .cardSection .cardContainer .card > p {
+        height: 40px;
+    }
+}
+@media only screen and (max-width: 825px) {
+    .cardSection .cardContainer .card {
+        width: 28%;
+    }
 }
 @media only screen and (max-width: 803px) {
     .cardSection .cardContainer .card {
@@ -211,6 +219,7 @@
     }
     .cardSection .cardContainer .card > h1 {
         line-height: 1;
+        margin: 1rem 0 0 0;
     }
     
     .cardSection .cardContainer .card > p {
