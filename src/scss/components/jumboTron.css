@@ -100,13 +100,16 @@
         height: 500px;
     }
     .jumboTron .jumboText > h3 {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
     .jumboTron .jumboText > h1 {
         font-size: 5rem;
     }
     .jumboTron .jumboText > p {
-        font-size: 1.2rem;
+        font-size: 1.rem;
+    }
+    .jumboTron .jumboText .ctaBtn {
+        margin-top: 2rem;
     }
 }
 @media only screen and (max-width: 850px) {
@@ -122,6 +125,9 @@
         height: 400px;
     }
     .jumboTron .jumboText > h1 {
-        font-size: 3rem;
+        font-size: 3.5rem;
+    }
+    .jumboTron .jumboText .ctaBtn {
+        font-size: 1.7rem;
     }
 }

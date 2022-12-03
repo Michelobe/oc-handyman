@@ -228,18 +228,16 @@
 }
 @media only screen and (max-width: 765px) {
     .cardSection .cardContainer .card {
+        padding: 2rem;
         width: 100%;
     }
-}
-/* 
-@media only screen and (max-width: 767px) {
-    .cardSection .cardContainer .card {
-        top: -2.5rem;
-        width: 80%;
-        padding: 1rem;
-    }
-
     .cardSection .cardContainer .card:nth-child(2) {
         margin: 1rem 0;
     }
-} */
+    .cardSection .cardContainer .card > h1 {
+        font-size: 1.5rem;
+    }
+    .cardSection .cardContainer .card > p {
+        font-size: 1.2rem;
+    }
+}
