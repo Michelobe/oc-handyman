@@ -13,7 +13,7 @@ const ProjectsSection = () => {
                         <h2>OCHandyman's Latest</h2>
                     </header>
                     <div className='projectsNavBtns'>
-                        <ul class='navBtns'>
+                        <ul className='navBtns'>
                             <li>
                                 <button className='projectButton'>All</button>
                             </li>

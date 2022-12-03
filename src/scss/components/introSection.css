@@ -76,38 +76,37 @@
     flex-flow: row;
     align-items: center;
     justify-content: center;
-    width: 34%;
 }
 .introSection .introSectionContainer .rightColumn .quickInfo .quickInfoCard i {
     padding: 1.2rem;
     font-size: 2rem;
     color: orange;
-    padding: 1.2rem;
 }
 .introSection .introSectionContainer .rightColumn .quickInfo .quickInfoCard .quickInfoP {
     font-weight: 600;
     font-size: 1.2rem;
     line-height: 1.3;
 }
-.introSection .introSectionContainer .rightColumn .quickInfo .quickInfoCard .quickInfoBorder {
-    border-right: 1px solid rgba(0, 0, 0, .1);
-    height: 3rem;
-    padding-right: 2rem;
+/* THE FOLLOWING CLASS SELECTOR HAS BEEN ADDED TO EFFECT THE FIRST TWO ELEMENTS WITH THE "quickInfoBorder" CLASS, I COULD NOT USE :nth-of-type() BECAUSE I AM SELECTING A CLASS, NOT A TYPE */
+.introSection .introSectionContainer .rightColumn .quickInfo .quickInfoBorder {
+    border-right: 1px solid rgba(0, 0, 0, .15);
+    height: 100%;
+    padding-right: 1rem;
 }
 
 
-/* MEDIA QUERIES ============================ */
+/* MEDIA QUERIES : MEDIA QUERIES : MEDIA QUERIES : MEDIA QUERIES : MEDIA QUERIES */
 
 
 @media only screen and (max-width: 1725px) {
     .introSection .introSectionContainer .leftColumn .lgPlaceholder {
-        /* width: 67%; */
+        width: 67%;
         height: 85%;
     }
     .introSection .introSectionContainer .leftColumn .smPlaceholder {
-        /* width: 53%; */
+        width: 53%;
         height: 73%;
-        /* right: 12%; */
+        right: 12%;
     }
 }
 @media only screen and (max-width: 1610px) {
@@ -134,13 +133,18 @@
 }
 @media only screen and (max-width: 1460px) {
     .introSection .introSectionContainer {
-        margin-top: 5.5rem;
+        margin-top: 3.5rem;
     }
     .introSection .introSectionContainer .leftColumn .lgPlaceholder {
         height: 67%;
     }
     .introSection .introSectionContainer .leftColumn .smPlaceholder {
         height: 55%;
+    }
+}
+@media only screen and (max-width: 1375px) {
+    .introSection .introSectionContainer .rightColumn .quickInfo .quickInfoCard .quickInfoP {
+        font-size: 1rem;
     }
 }
 @media only screen and (max-width: 1303px) {
@@ -209,34 +213,40 @@
     }
 }
 @media only screen and (max-width: 849px) {
+    .introSection .introSectionContainer .leftColumn {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+    }
     .introSection .introSectionContainer .leftColumn .lgPlaceholder {
-        height: 30%;
+        position: relative;
+        left: -10%;
+        width: 49%;
+        height: 68%;
     }
     .introSection .introSectionContainer .leftColumn .smPlaceholder {
-        height: 23%;
-        top: 14%;
+        width: 38%;
+        height: 51%;
+        position: absolute;
+        right: 22%;
+        top: 26%;
+    }
+    .introSection .introSectionContainer .rightColumn {
+        width: 100%;
     }
 }
 @media only screen and (max-width: 765px) {
     .introSection .introSectionContainer {
-        margin-top: 3rem;
+        margin-top: 1.5rem;
     }
-    .introSection .introSectionContainer .leftColumn {
-        width: 100%;
-        height: 300px;
+}
+@media only screen and (max-width: 559px) {
+    .introSection .introSectionContainer .rightColumn .quickInfo {
+        flex-flow: column;
+        align-items: flex-start;
     }
-    .introSection .introSectionContainer .leftColumn .lgPlaceholder {
-        width: 67%;
-        height: 100%;
-    }
-    .introSection .introSectionContainer .leftColumn .smPlaceholder {
-        width: 53%;
-        height: 100%;
-        position: absolute;
-        /* right: 12%; */
-        /* top: 30%; */
-    }
-    .introSection .introSectionContainer .rightColumn {
-        width: 100%;
+    .specialServicesSection .imgContainer {
+        top: -62rem !important;
     }
 }

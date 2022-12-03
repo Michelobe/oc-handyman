@@ -23,13 +23,13 @@ const IntroSection = () => {
                         <div className='aboutBtn'>More About <i className="fas fa-angle-double-right"></i></div>
                     </div>
                     <div className='quickInfo'>
-                        <div className='quickInfoCard'>
+                        <div className='quickInfoCard quickInfoBorder'>
                             <i className="far fa-clock"></i>
-                            <p className='quickInfoP quickInfoBorder'>On Time at Services</p>
+                            <p className='quickInfoP '>On Time at Services</p>
                         </div>
-                        <div className='quickInfoCard'>
+                        <div className='quickInfoCard quickInfoBorder'>
                             <i className="fas fa-magic"></i>
-                            <p className='quickInfoP quickInfoBorder'>24/7 Services</p>
+                            <p className='quickInfoP '>24/7 Services</p>
                         </div>
                         <div className='quickInfoCard'>
                             <i className="fas fa-medal"></i>
