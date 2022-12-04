@@ -322,3 +322,17 @@
         top: 33%;
     }
 }
+@media only screen and (max-width: 499px) {
+    .introSection .introSectionContainer {
+        margin-top: .5rem;
+    }
+    .introSection .introSectionContainer .leftColumn .lgPlaceholder {
+        height: 69%;
+    }
+    .introSection .introSectionContainer .leftColumn .smPlaceholder {
+        width: 46%;
+        height: 51%;
+        right: 12%;
+        top: 26%;
+    }
+}

@@ -4,6 +4,7 @@
 /* PROJECTS SECTION */
 .projectsSection {
     margin-bottom: 6rem;
+    overflow: hidden;
 }
 
 /* NAVBAR */
