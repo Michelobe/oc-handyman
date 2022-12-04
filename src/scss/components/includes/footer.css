@@ -3,6 +3,7 @@
 .footerSection{
     background: rgb(0,100,0);
     position: relative;
+    overflow: hidden;
 }
 
 .footerSection .footerCta{
