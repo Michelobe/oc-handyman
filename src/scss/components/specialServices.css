@@ -2,7 +2,7 @@
 .specialServicesSection{
     background: #FDA12B;
     color: white;
-    padding: 4rem 0;
+    padding: 6rem 0 4.5rem 0;
     margin: 6rem 0;
     position: relative;
     height: 31.65rem;
@@ -10,31 +10,33 @@
 
 /* LEFT COLUMN */
 .specialServicesSection .leftColumn {
-    width: 50%;
+    max-width: 44%;
 }
 .specialServicesSection .leftColumn .headerDiv {
-    border-left: 0.5rem solid white;
+    border-left: 0.5rem solid rgb(255, 255, 255);
     margin-bottom: 1rem;
 }
 .specialServicesSection .leftColumn .headerDiv > h4 {
     font-size: 1.25rem;
-    color: gray;
     padding: 0.5rem 0 0.25rem 1.25rem;
+    font-weight: 600;
 }
 .specialServicesSection .leftColumn .headerDiv > h2 {
     font-size: 2.5rem;
     padding: 0.25rem 0 0.5rem 1.25rem;
     font-weight: bold;
 }
-.specialServicesSection .leftColumn .headerInfo{
-    margin-bottom: 2.5rem;
-}
 .specialServicesSection .leftColumn .headerInfo > .columnContent{
     line-height: 1.5;
+    font-size: 1.15rem;
 }
 .specialServicesSection .leftColumn .quickInfo .quickInfoCard{
     display: flex;
     flex-flow: row nowrap;
+    padding: 3rem 0;
+}
+.specialServicesSection .leftColumn .quickInfo .quickInfoCard:nth-of-type(1){
+    border-bottom: 1px solid rgba(255, 255, 255, 0.428);
 }
 .specialServicesSection .leftColumn .quickInfo .quickInfoCard .infoIconContainer{
     border: 2px solid white;
@@ -46,137 +48,60 @@
     font-size: 2.5rem;
 }
 .specialServicesSection .leftColumn .quickInfo .quickInfoCard .infoCardContent > h5{
-    font-size: 1.25rem;
+    font-size: 1.7rem;
     font-weight: bold;
     margin-bottom: .85rem;
 }
 .specialServicesSection .leftColumn .quickInfo .quickInfoCard .infoCardContent .columnContent{
     line-height: 1.5;
-    margin-bottom: 2rem;
-    font-size: .9rem;
 }
 
 /* RIGHT COLUMN */
 .specialServicesSection .imgContainer {
-    position: relative;
+    position: absolute;
     left: 50%;
-    top: -30rem;
-    height: 139.2%;
+    height: 47rem;
     width: 50%;
+    top: -4.85rem;
     background-color: green;
 }
 
 
 /* BREAKPOINTS */
-/*
-@media only screen and (max-width: 1900px){
-    .container{
-        width: 1750px;
+
+@media only screen and (max-width: 1775px){
+    .specialServicesSection .leftColumn {
+        max-width: 46%;
+    }
+    .specialServicesSection .leftColumn .quickInfo .quickInfoCard{
+        padding: 2rem 0;
     }
 }
-*/
-/*
-@media only screen and (max-width: 1800px){
-    .container{
-        width: 1650px;
-    }
-}
-*/
-/*
-@media only screen and (max-width: 1700px){
-    .container{
-        width: 1550px;
-    }
-}
-*/
-/*
-@media only screen and (max-width: 1600px){
-    .container{
-        width: 1450px;
-    }
-}
-*/
-/*
-@media only screen and (max-width: 1500px){
-    .container{
-        width: 1350px;
-    }
-}
-*/
-/*
-@media only screen and (max-width: 1400px){
-    .container{
-        width: 1250px;
-    }
-}
-*/
-/*
-@media only screen and (max-width: 1300px){
-    .container{
-        width: 1150px;
-    }
-}
-*/
-/*
 @media only screen and (max-width: 1200px){
-    .container{
-        width: 1050px;
+    .specialServicesSection{
+        padding: 6rem 0 0 0;
+    }
+    .specialServicesSection .leftColumn {
+        max-width: 100%;
+    }
+    .specialServicesSection .imgContainer {
+        display: none;
     }
 }
-*/
-/*
-@media only screen and (max-width: 1120px){
-    .container{
-        width: 950px;
-    }
-}
-*/
-/*
-@media only screen and (max-width: 1000px){
-    .container{
-        width: 880px;
-    }
-}
-*/
-/*
-@media only screen and (max-width: 920px){
-    .container{
-        width: 830px;
-    }
-}
-*/
-/*
-@media only screen and (max-width: 865px){
-    .container{
-        width: 790px;
-    }
-}
-*/
-/*
-@media only screen and (max-width: 820px){
-    .container{
-        width: 750px;
-    }
-}
-*/
-/*
-@media only screen and (max-width: 768px){
-    .container{
-        width: 738px;
-    }
-}
-*/
-/*
 @media only screen and (max-width: 767px){
-    .container{
-        width: 404px;
+    .specialServicesSection{
+        height: 62rem;
+        margin: 0;
+        padding: 3rem 0 0 0;
+        margin-bottom: 5rem;
+    }
+    .specialServicesSection .imgContainer {
+        left: 0;
+        width: 100%;
+        display: block;
+        position: static;
+        height: 28rem;
+        margin-bottom: 3rem;
     }
 }
-*/
-/*
-@media only screen and (max-width: 400px){
-    .container{
-        width: 365px;
-    }
-}
-*/
+
