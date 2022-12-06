@@ -113,12 +113,14 @@
 
 /* BREAKPOINTS */
 
+@media only screen and (max-width: 850px){
+    .projectsSection .projectsNav {
+        flex-flow: column;
+    }
+}
 @media only screen and (max-width: 450px){
     .projectsSection{
         margin: 12rem 0 6rem 0;
-    }
-    .projectsSection .projectsNav {
-        flex-flow: column;
     }
 }
 
