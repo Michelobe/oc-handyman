@@ -360,4 +360,7 @@
         right: 12%;
         top: 26%;
     }
+    .introSection .introSectionContainer .rightColumn{
+        height: 42rem;
+    }
 }
