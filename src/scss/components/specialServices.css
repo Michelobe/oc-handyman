@@ -29,6 +29,7 @@
 .specialServicesSection .leftColumn .headerInfo > .columnContent{
     line-height: 1.5;
     font-size: 1.15rem;
+    font-weight: 600;
 }
 .specialServicesSection .leftColumn .quickInfo .quickInfoCard{
     display: flex;
@@ -48,7 +49,7 @@
     font-size: 2.5rem;
 }
 .specialServicesSection .leftColumn .quickInfo .quickInfoCard .infoCardContent > h5{
-    font-size: 1.7rem;
+    font-size: 1.65rem;
     font-weight: bold;
     margin-bottom: .85rem;
 }

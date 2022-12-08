@@ -12,6 +12,17 @@ const ProjectsSection = () => {
                         <h6>Recently Completed</h6>
                         <h2>OCHandyman's Latest</h2>
                     </header>
+                    <nav className='mobileNav'>
+                        <select className='navDrop' name="job" id="job">
+                            <option className='dropOption' value="All">All</option>
+                            <option className='dropOption' value="Electrical">Electrical</option>
+                            <option className='dropOption' value="Cabinetry">Cabinetry</option>
+                            <option className='dropOption' value="Painting">Painting</option>
+                            <option className='dropOption' value="Plumbing">Plumbing</option>
+                            <option className='dropOption' value="Flooring">Flooring</option>
+                            <option className='dropOption' value="Maintenance">Maintenance</option>
+                        </select>
+                    </nav>
                     <div className='projectsNavBtns'>
                         <ul className='navBtns'>
                             <li>
