@@ -49,6 +49,7 @@
 .introSection .introSectionContainer .rightColumn .infoDiv p:nth-of-type(1) {
     color: #5a5959;
     font-weight: 600;
+    font-size: 1.15rem;
     margin-bottom: 1.5rem;
 }
 .introSection .introSectionContainer .rightColumn .infoDiv p {

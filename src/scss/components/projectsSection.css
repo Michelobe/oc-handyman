@@ -8,6 +8,11 @@
 }
 
 /* NAVBAR */
+.mobileNav{
+    position: absolute;
+    display: none;
+    opacity: 0;
+}
 .projectsSection .projectsNav {
     display: flex;
     flex-flow: row;
@@ -15,34 +20,38 @@
 }
 
 /* NAV HEADER */
-.projectsSection .projectsHeader {
+.projectsSection .projectsNav .projectsHeader {
     border-left: 0.5rem solid orange;
     margin-bottom: 2rem;
 }
-.projectsSection .projectsHeader h6 {
+.projectsSection .projectsNav .projectsHeader h6 {
     font-size: 1.25rem;
     color: gray;
     padding: 0.5rem 0 0.25rem 1.25rem;
 }
-.projectsSection .projectsHeader h2 {
+.projectsSection .projectsNav .projectsHeader h2 {
     font-size: 2.5rem;
     padding: 0.25rem 0 0.5rem 1.25rem;
     font-weight: bold;
 }
+/* MOBILE NAV */
+.projectsSection .projectsNav .mobileNav .navDrop{
+    font-size: 2rem;
+}
 
 /* NAV BUTTONS */
-.projectsSection .projectsNavBtns {
+.projectsSection .projectsNav .projectsNavBtns {
     display: flex;
     justify-content: center;
     align-items: center;
     height: auto;
 }
-.projectsSection .navBtns {
+.projectsSection .projectsNav .navBtns {
     display: flex;
     flex-flow: row wrap;
     height: 2rem;
 }
-.projectsSection .projectsNavBtns .navBtns .projectButton {
+.projectsSection .projectsNav .projectsNavBtns .navBtns .projectButton {
     border: none;
     background-color: transparent;
     padding: .5rem 1rem;
@@ -55,7 +64,7 @@
 .projectsSection .projectTiles {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .projectsSection .projectTiles .projectTile {
     position: relative;
@@ -112,6 +121,20 @@
 
 
 /* BREAKPOINTS */
+
+@media only screen and (max-width: 1295px){
+    .mobileNav{
+        position: initial;
+        display: initial;
+        opacity: 1;
+    }
+    .projectsNavBtns{
+        position: absolute;
+        display: none;
+        opacity: 0;
+    }
+}
+
 
 @media only screen and (max-width: 850px){
     .projectsSection .projectsNav {
