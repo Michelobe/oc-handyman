@@ -349,6 +349,9 @@
     }
 }
 @media only screen and (max-width: 499px) {
+    .introSection {
+        margin-bottom: 8rem;
+    }
     .introSection .introSectionContainer {
         margin-top: .5rem;
     }

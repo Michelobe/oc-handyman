@@ -17,6 +17,7 @@
     display: flex;
     flex-flow: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 /* NAV HEADER */
@@ -37,6 +38,13 @@
 /* MOBILE NAV */
 .projectsSection .projectsNav .mobileNav .navDrop{
     font-size: 2rem;
+    border: 5px solid orange;
+    text-transform: uppercase;
+    color: orange;
+    padding: .5rem;
+}
+.projectsSection .projectsNav .mobileNav .navDrop .dropOption{
+    border: 5px solid orange;
 }
 
 /* NAV BUTTONS */
@@ -64,14 +72,14 @@
 .projectsSection .projectTiles {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 .projectsSection .projectTiles .projectTile {
     position: relative;
     width: 390px;
     height: 275px;
     color: white;
-    margin-bottom: 1rem;
+    margin: .3rem;
 }
 /* BACKGROUND */
 .projectsSection .projectTiles .projectTile .tilePhoto{

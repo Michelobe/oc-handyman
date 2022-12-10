@@ -17,7 +17,7 @@ const CardSection = () => {
                   <div className='iconContainer'>
                     <i className="fas fa-cog"></i>
                   </div>
-                  <h1>Multiple Services Available For Every Need</h1>
+                  <h1>Multiple Services Available</h1>
                   <p>Our team has the knowledge & skills for tasks you need.</p>
                   <button>More Services</button>
               </div>
