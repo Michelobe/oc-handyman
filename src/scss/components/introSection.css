@@ -367,4 +367,7 @@
     .introSection .introSectionContainer .rightColumn{
         height: 42rem;
     }
+    .introSection .introSectionContainer .rightColumn .quickInfo .quickInfoCard i{
+        padding: .5rem;
+    }
 }

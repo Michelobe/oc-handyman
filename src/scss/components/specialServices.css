@@ -91,7 +91,7 @@
 }
 @media only screen and (max-width: 767px){
     .specialServicesSection{
-        height: 59.5rem;
+        height: 64rem;
         margin: 0;
         padding: 3rem 0 0 0;
         margin-bottom: 5rem;
@@ -102,7 +102,7 @@
         display: block;
         position: static;
         height: 28rem;
-        margin-bottom: 3rem;
+        margin: 2rem 0;
     }
 }
 
