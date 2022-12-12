@@ -38,13 +38,10 @@
 /* MOBILE NAV */
 .projectsSection .projectsNav .mobileNav .navDrop{
     font-size: 2rem;
-    border: 5px solid orange;
+    border: 5px solid green;
     text-transform: uppercase;
-    color: orange;
+    color: green;
     padding: .5rem;
-}
-.projectsSection .projectsNav .mobileNav .navDrop .dropOption{
-    border: 5px solid orange;
 }
 
 /* NAV BUTTONS */
@@ -69,10 +66,18 @@
 }
 
 /* TILES */
+.projectsSection {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
 .projectsSection .projectTiles {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .projectsSection .projectTiles .projectTile {
     position: relative;
@@ -111,7 +116,7 @@
     font-weight: bold;
     letter-spacing: 1px;
     font-size: 1rem;
-    color: orange;
+    color: green;
 }
 .projectsSection .projectTiles .projectTile .tileHoverPopup .tileContent > h2{
     margin-bottom: 1.2rem;
@@ -135,6 +140,7 @@
         position: initial;
         display: initial;
         opacity: 1;
+        margin-bottom: 2rem;
     }
     .projectsNavBtns{
         position: absolute;
@@ -151,7 +157,7 @@
 }
 @media only screen and (max-width: 450px){
     .projectsSection{
-        margin: 12rem 0 6rem 0;
+        margin: 11rem 0 4rem 0;
     }
 }
 
