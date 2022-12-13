@@ -65,11 +65,21 @@
     width: 50%;
     top: -4.85rem;
     background-color: green;
+    overflow: hidden;
+}
+.specialServicesSection .imgContainer > img {
+    width: 100%;
 }
 
 
 /* BREAKPOINTS */
 
+@media only screen and (max-width: 1905px){
+    .specialServicesSection .imgContainer > img {
+        height: 100%;
+        width: initial;
+    }
+}
 @media only screen and (max-width: 1775px){
     .specialServicesSection .leftColumn {
         max-width: 46%;
@@ -92,17 +102,34 @@
 @media only screen and (max-width: 767px){
     .specialServicesSection{
         height: 64rem;
-        margin: 0;
+        margin: 0 0 7rem 0;
         padding: 3rem 0 0 0;
-        margin-bottom: 5rem;
     }
     .specialServicesSection .imgContainer {
-        left: 0;
+        display: initial;
+        left: 0%;
+        top: 53.5%;
         width: 100%;
-        display: block;
-        position: static;
-        height: 28rem;
-        margin: 2rem 0;
+        height: 34.5rem;
+    }
+    .specialServicesSection .imgContainer > img{
+        height: initial;
+        width: 100%;
     }
 }
+@media only screen and (max-width: 713px){
+    .specialServicesSection .imgContainer > img{
+        height: 102%;
+        width: initial;
+    }
+}
+@media only screen and (max-width: 523px){
+    .specialServicesSection{
+        height: 69rem;
+        margin: 0 0 5rem 0;
+    }
+}
+
+
+
 

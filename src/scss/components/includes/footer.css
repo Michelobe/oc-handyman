@@ -20,7 +20,7 @@
 }
 .footerSection .footerContent{
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: center;
 }
 .footerSection .footerContent .footerCol{
@@ -88,7 +88,7 @@
 
 /* BREAKPOINTS */
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 565px){
     .footerSection .footerContent {
         flex-flow: column;
     }

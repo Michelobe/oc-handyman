@@ -16,7 +16,6 @@
 .aboutTeam .aboutHeader {
     display: flex;
     flex-flow: row;
-    justify-content: space-between;
     align-items: center;
     color: white;
 }
@@ -74,19 +73,22 @@
 
 /* BREAKPOINTS */
 
-@media only screen and (max-width: 450px){
-    .aboutTeam {
-        height: 85rem;
-    }
+@media only screen and (max-width: 930px){
     .aboutTeam .aboutHeader {
         flex-flow: column;
+        align-items: flex-start;
+    }
+}
+@media only screen and (max-width: 800px){
+    .aboutTeam {
+        height: 81rem;
     }
     .aboutTeam .teamIntro {
         flex-flow: column;
         height: 80rem;
+        align-items: center;
     }
     .aboutTeam .teamIntro .teammate {
-        width: 100%;
         height: 38rem;
         margin: 0;
     }

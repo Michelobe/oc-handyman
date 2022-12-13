@@ -1,4 +1,5 @@
 import React from 'react';
+import Kitchen from '../images/special-kitchen.jpg';
 
 const SpecialServices = () => {
   return (
@@ -41,7 +42,7 @@ const SpecialServices = () => {
             </div>
         </div>
         <div className='imgContainer'>
-            <img src='../images/special-kitchen.jpg' width="5rem" height="5rem" alt='Interior Home Kitchen' />
+            <img src={Kitchen} alt='Interior Home Kitchen' />
         </div>
     </section>
   );
