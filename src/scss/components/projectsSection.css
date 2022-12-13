@@ -135,6 +135,16 @@
 
 /* BREAKPOINTS */
 
+@media only screen and (max-width: 1354px){
+    .projectsSection .projectTiles .projectTile {
+        width:374px;
+    }
+}
+@media only screen and (max-width: 1295px){
+    .projectsSection .projectTiles .projectTile {
+        width: 32%;
+    }
+}
 @media only screen and (max-width: 1295px){
     .mobileNav{
         position: initial;
@@ -149,10 +159,45 @@
     }
 }
 
-
-@media only screen and (max-width: 850px){
+@media only screen and (max-width: 1165px){
+    .projectsSection .projectTiles .projectTile {
+        width: 38%;
+    }
+}
+@media only screen and (max-width: 1120px){
+    .projectsSection .projectTiles .projectTile {
+        width: 42%;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .projectsSection .projectTiles .projectTile {
+        width: 45%;
+    }
+}
+@media only screen and (max-width: 950px){
+    .projectsSection .projectTiles .projectTile {
+        width: 48%;
+    }
+}
+@media only screen and (max-width: 668px){
     .projectsSection .projectsNav {
         flex-flow: column;
+    }
+}
+@media only screen and (max-width: 650px){
+    .projectsSection .projectTiles .projectTile {
+        width: 71%;
+    }
+}
+@media only screen and (max-width: 550px){
+    .projectsSection .projectTiles .projectTile {
+        width: 81%;
+    }
+}
+@media only screen and (max-width: 500px){
+    .projectsSection .projectTiles .projectTile {
+        width: 100%;
+        margin: .3rem 0;
     }
 }
 @media only screen and (max-width: 450px){
