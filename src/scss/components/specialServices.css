@@ -129,6 +129,14 @@
         margin: 0 0 5rem 0;
     }
 }
+@media only screen and (max-width: 420px){
+    .specialServicesSection{
+        height: 68rem;
+    }
+    .specialServicesSection .imgContainer {
+        top: 61.5%;
+    }
+}
 
 
 

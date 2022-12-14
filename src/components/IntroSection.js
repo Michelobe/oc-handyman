@@ -1,12 +1,18 @@
 import React from 'react';
+import largePlacehold from '../images/wood-saw.jpg';
+import smallPlacehold from '../images/power-drill.jpg';
 
 const IntroSection = () => {
     return (
         <section className="introSection">
             <div className='container introSectionContainer'>
                 <div className='leftColumn'>
-                    <div className='lgPlaceholder'></div>
-                    <div className='smPlaceholder'></div>
+                    <div className='lgPlaceholder'>
+                        <img src={largePlacehold} alt="Man cutting wood with saw" />
+                    </div>
+                    <div className='smPlaceholder'>
+                        <img src={smallPlacehold} alt="Man Drilling into wood with drill" />
+                    </div>
                 </div>
                 <div className='rightColumn'>
                     <div className='headerDiv'>

@@ -93,6 +93,10 @@
     height: 100%;
     background: black;
     z-index: -1;
+    overflow: hidden;
+}
+.projectsSection .projectTiles .projectTile .tilePhoto > img{
+    height: 100%;
 }
 /* HOVER TILE INFORMATION */
 .projectsSection .projectTiles .projectTile .tileHoverPopup{
