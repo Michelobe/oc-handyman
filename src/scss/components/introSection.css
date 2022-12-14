@@ -15,6 +15,10 @@
     width: 67%;
     height: 88%;
     background-color: green;
+    overflow: hidden;
+}
+.introSection .introSectionContainer .leftColumn .lgPlaceholder > img{
+    width: 100%;
 }
 .introSection .introSectionContainer .leftColumn .smPlaceholder {
     width: 53%;
@@ -24,6 +28,10 @@
     top: 30%;
     background-color: orange;
     border: 1rem solid white;
+    overflow: hidden;
+}
+.introSection .introSectionContainer .leftColumn .smPlaceholder > img{
+    height: 100%;
 }
 .introSection .introSectionContainer .rightColumn {
     width: 50%;
@@ -350,7 +358,7 @@
 }
 @media only screen and (max-width: 499px) {
     .introSection {
-        margin-bottom: 8rem;
+        margin-bottom: 5rem;
     }
     .introSection .introSectionContainer {
         margin-top: .5rem;

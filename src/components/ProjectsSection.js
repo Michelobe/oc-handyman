@@ -1,4 +1,6 @@
 import React from 'react';
+import elecWire from '../images/electric-wires.jpg';
+
 
 const ProjectsSection = () => {
 
@@ -49,9 +51,13 @@ const ProjectsSection = () => {
                         </ul>
                     </div>
                 </nav>
+
+
                 <div className='projectTiles'>
                     <div className='projectTile'>
-                        <div className='tilePhoto'></div>
+                        <div className='tilePhoto'>
+                            <img src={elecWire} alt="Electrical Wires" />
+                        </div>
                         <div className='tileHoverPopup'>
                             <div className='tileContent'>
                                 <h6>Painting, Plumbing</h6>
@@ -61,7 +67,9 @@ const ProjectsSection = () => {
                         </div>
                     </div>
                     <div className='projectTile'>
-                        <div className='tilePhoto'></div>
+                        <div className='tilePhoto'>
+                            <img src={elecWire} alt="Electrical Wires" />
+                        </div>
                         <div className='tileHoverPopup'>
                             <div className='tileContent'>
                                 <h6>Painting, Plumbing</h6>
@@ -71,7 +79,9 @@ const ProjectsSection = () => {
                         </div>
                     </div>
                     <div className='projectTile'>
-                        <div className='tilePhoto'></div>
+                        <div className='tilePhoto'>
+                            <img src={elecWire} alt="Electrical Wires" />
+                        </div>
                         <div className='tileHoverPopup'>
                             <div className='tileContent'>
                                 <h6>Painting, Plumbing</h6>
@@ -81,7 +91,9 @@ const ProjectsSection = () => {
                         </div>
                     </div>
                     <div className='projectTile'>
-                        <div className='tilePhoto'></div>
+                        <div className='tilePhoto'>
+                            <img src={elecWire} alt="Electrical Wires" />
+                        </div>
                         <div className='tileHoverPopup'>
                             <div className='tileContent'>
                                 <h6>Painting, Plumbing</h6>
@@ -91,7 +103,9 @@ const ProjectsSection = () => {
                         </div>
                     </div>
                     <div className='projectTile'>
-                        <div className='tilePhoto'></div>
+                        <div className='tilePhoto'>
+                            <img src={elecWire} alt="Electrical Wires" />
+                        </div>
                         <div className='tileHoverPopup'>
                             <div className='tileContent'>
                                 <h6>Painting, Plumbing</h6>
@@ -101,7 +115,9 @@ const ProjectsSection = () => {
                         </div>
                     </div>
                     <div className='projectTile'>
-                        <div className='tilePhoto'></div>
+                        <div className='tilePhoto'>
+                            <img src={elecWire} alt="Electrical Wires" />
+                        </div>
                         <div className='tileHoverPopup'>
                             <div className='tileContent'>
                                 <h6>Painting, Plumbing</h6>
@@ -111,6 +127,8 @@ const ProjectsSection = () => {
                         </div>
                     </div>
                 </div>
+
+
             </div>
         </section>
     );
