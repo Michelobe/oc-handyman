@@ -1,5 +1,10 @@
 import React from 'react';
-import elecWire from '../images/electric-wires.jpg';
+import electrical from '../images/project-section/electric-wires.jpg';
+import cabinetry from '../images/project-section/kitchen-cabinet.jpg';
+import plumbing from '../images/project-section/plumbing-install.jpg';
+import sink from '../images/project-section/sink-leaking.jpg';
+import tile from '../images/project-section/tile-installation.jpg';
+import flooring from '../images/project-section/panel-flooring-installation.jpg';
 
 
 const ProjectsSection = () => {
@@ -56,9 +61,10 @@ const ProjectsSection = () => {
                 <div className='projectTiles'>
                     <div className='projectTile'>
                         <div className='tilePhoto'>
-                            <img src={elecWire} alt="Electrical Wires" />
+                            <img src={electrical} alt="Electrical Wires" />
                         </div>
                         <div className='tileHoverPopup'>
+                            <div className="tileShade"></div>
                             <div className='tileContent'>
                                 <h6>Painting, Plumbing</h6>
                                 <h2>Electrical - Orange, CA</h2>
@@ -68,9 +74,10 @@ const ProjectsSection = () => {
                     </div>
                     <div className='projectTile'>
                         <div className='tilePhoto'>
-                            <img src={elecWire} alt="Electrical Wires" />
+                            <img src={cabinetry} alt="Electrical Wires" />
                         </div>
                         <div className='tileHoverPopup'>
+                            <div className="tileShade"></div>
                             <div className='tileContent'>
                                 <h6>Painting, Plumbing</h6>
                                 <h2>Electrical - Orange, CA</h2>
@@ -80,9 +87,10 @@ const ProjectsSection = () => {
                     </div>
                     <div className='projectTile'>
                         <div className='tilePhoto'>
-                            <img src={elecWire} alt="Electrical Wires" />
+                            <img src={sink} alt="Electrical Wires" />
                         </div>
                         <div className='tileHoverPopup'>
+                            <div className="tileShade"></div>
                             <div className='tileContent'>
                                 <h6>Painting, Plumbing</h6>
                                 <h2>Electrical - Orange, CA</h2>
@@ -92,9 +100,10 @@ const ProjectsSection = () => {
                     </div>
                     <div className='projectTile'>
                         <div className='tilePhoto'>
-                            <img src={elecWire} alt="Electrical Wires" />
+                            <img src={tile} alt="Electrical Wires" />
                         </div>
                         <div className='tileHoverPopup'>
+                            <div className="tileShade"></div>
                             <div className='tileContent'>
                                 <h6>Painting, Plumbing</h6>
                                 <h2>Electrical - Orange, CA</h2>
@@ -104,9 +113,10 @@ const ProjectsSection = () => {
                     </div>
                     <div className='projectTile'>
                         <div className='tilePhoto'>
-                            <img src={elecWire} alt="Electrical Wires" />
+                            <img src={plumbing} alt="Electrical Wires" />
                         </div>
                         <div className='tileHoverPopup'>
+                            <div className="tileShade"></div>
                             <div className='tileContent'>
                                 <h6>Painting, Plumbing</h6>
                                 <h2>Electrical - Orange, CA</h2>
@@ -116,9 +126,10 @@ const ProjectsSection = () => {
                     </div>
                     <div className='projectTile'>
                         <div className='tilePhoto'>
-                            <img src={elecWire} alt="Electrical Wires" />
+                            <img src={flooring} alt="Electrical Wires" />
                         </div>
                         <div className='tileHoverPopup'>
+                            <div className="tileShade"></div>
                             <div className='tileContent'>
                                 <h6>Painting, Plumbing</h6>
                                 <h2>Electrical - Orange, CA</h2>
