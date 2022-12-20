@@ -63,12 +63,14 @@ const ProjectsSection = () => {
                         <div className='tilePhoto'>
                             <img src={electrical} alt="Electrical Wires" />
                         </div>
-                        <div className='tileHoverPopup'>
-                            <div className="tileShade"></div>
-                            <div className='tileContent'>
-                                <h6>Painting, Plumbing</h6>
-                                <h2>Electrical - Orange, CA</h2>
-                                <div className='tileBottomBorder'></div>
+                        <div className='tileHover'>
+                            <div className="tileHoverPopup">
+                                <div className="tileShade"></div>
+                                <div className='tileContent'>
+                                    <h6>Painting, Plumbing</h6>
+                                    <h2>Electrical - Orange, CA</h2>
+                                    <div className='tileBottomBorder'></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -76,12 +78,14 @@ const ProjectsSection = () => {
                         <div className='tilePhoto'>
                             <img src={cabinetry} alt="Electrical Wires" />
                         </div>
-                        <div className='tileHoverPopup'>
-                            <div className="tileShade"></div>
-                            <div className='tileContent'>
-                                <h6>Painting, Plumbing</h6>
-                                <h2>Electrical - Orange, CA</h2>
-                                <div className='tileBottomBorder'></div>
+                        <div className='tileHover'>
+                            <div className="tileHoverPopup">
+                                <div className="tileShade"></div>
+                                <div className='tileContent'>
+                                    <h6>Painting, Plumbing</h6>
+                                    <h2>Electrical - Orange, CA</h2>
+                                    <div className='tileBottomBorder'></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -89,12 +93,14 @@ const ProjectsSection = () => {
                         <div className='tilePhoto'>
                             <img src={sink} alt="Electrical Wires" />
                         </div>
-                        <div className='tileHoverPopup'>
-                            <div className="tileShade"></div>
-                            <div className='tileContent'>
-                                <h6>Painting, Plumbing</h6>
-                                <h2>Electrical - Orange, CA</h2>
-                                <div className='tileBottomBorder'></div>
+                        <div className='tileHover'>
+                            <div className="tileHoverPopup">
+                                <div className="tileShade"></div>
+                                <div className='tileContent'>
+                                    <h6>Painting, Plumbing</h6>
+                                    <h2>Electrical - Orange, CA</h2>
+                                    <div className='tileBottomBorder'></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -102,12 +108,14 @@ const ProjectsSection = () => {
                         <div className='tilePhoto'>
                             <img src={tile} alt="Electrical Wires" />
                         </div>
-                        <div className='tileHoverPopup'>
-                            <div className="tileShade"></div>
-                            <div className='tileContent'>
-                                <h6>Painting, Plumbing</h6>
-                                <h2>Electrical - Orange, CA</h2>
-                                <div className='tileBottomBorder'></div>
+                        <div className='tileHover'>
+                            <div className="tileHoverPopup">
+                                <div className="tileShade"></div>
+                                <div className='tileContent'>
+                                    <h6>Painting, Plumbing</h6>
+                                    <h2>Electrical - Orange, CA</h2>
+                                    <div className='tileBottomBorder'></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -115,12 +123,14 @@ const ProjectsSection = () => {
                         <div className='tilePhoto'>
                             <img src={plumbing} alt="Electrical Wires" />
                         </div>
-                        <div className='tileHoverPopup'>
-                            <div className="tileShade"></div>
-                            <div className='tileContent'>
-                                <h6>Painting, Plumbing</h6>
-                                <h2>Electrical - Orange, CA</h2>
-                                <div className='tileBottomBorder'></div>
+                        <div className='tileHover'>
+                            <div className="tileHoverPopup">
+                                <div className="tileShade"></div>
+                                <div className='tileContent'>
+                                    <h6>Painting, Plumbing</h6>
+                                    <h2>Electrical - Orange, CA</h2>
+                                    <div className='tileBottomBorder'></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -128,12 +138,14 @@ const ProjectsSection = () => {
                         <div className='tilePhoto'>
                             <img src={flooring} alt="Electrical Wires" />
                         </div>
-                        <div className='tileHoverPopup'>
-                            <div className="tileShade"></div>
-                            <div className='tileContent'>
-                                <h6>Painting, Plumbing</h6>
-                                <h2>Electrical - Orange, CA</h2>
-                                <div className='tileBottomBorder'></div>
+                        <div className='tileHover'>
+                            <div className="tileHoverPopup">
+                                <div className="tileShade"></div>
+                                <div className='tileContent'>
+                                    <h6>Painting, Plumbing</h6>
+                                    <h2>Electrical - Orange, CA</h2>
+                                    <div className='tileBottomBorder'></div>
+                                </div>
                             </div>
                         </div>
                     </div>
