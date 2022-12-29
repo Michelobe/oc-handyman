@@ -1,6 +1,6 @@
 import React from 'react';
-import largePlacehold from '../images/wood-saw.jpg';
-import smallPlacehold from '../images/power-drill.jpg';
+import largePlacehold from '../../../images/wood-saw.jpg';
+import smallPlacehold from '../../../images/power-drill.jpg';
 
 const IntroSection = () => {
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import Kitchen from '../images/special-kitchen.jpg';
+import Kitchen from '../../../images/special-kitchen.jpg';
 
 const SpecialServices = () => {
   return (
