@@ -1,26 +1,29 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+// INCLUDES
 import MegaNav from './components/includes/MegaNav.js';
-import JumboTron from './components/JumboTron.js';
-import CardSection from './components/CardSection.js';
-import IntroSection from './components/IntroSection.js';
-import SpecialServices from './components/SpecialServices.js';
-import ProjectsSection from './components/ProjectsSection.js';
-import AboutTeam from './components/AboutTeam.js';
 import Footer from './components/includes/Footer.js';
-import './scss/App.css';
+// HOME PAGE
+import HomePage from './components/homePage/HomePage.js';
+// PAGES
+// CSSnpm starts
+import './css/App.css';
 
 function App() {
     return (
-        <div className="App">
-            <MegaNav />
-            <JumboTron />
-            <CardSection />
-            <IntroSection />
-            <SpecialServices />
-            <ProjectsSection />
-            <AboutTeam />
-            <Footer />
-        </div>
+        <BrowserRouter>
+
+            <div className="App">
+                <MegaNav />
+                
+                <Routes>
+                    <Route path = '/' element={<HomePage />} />
+                </Routes>
+
+                <Footer />
+            </div>
+
+        </BrowserRouter>
     );
 }
 

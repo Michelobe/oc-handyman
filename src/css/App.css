@@ -1,14 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import './reset.css';
-@import './components/includes/megaNav.css';
-@import './components/jumboTron.css';
-@import './components/cardSection.css';
-@import './components/introSection.css';
-@import './components/specialServices.css';
-@import './components/projectsSection.css';
-@import './components/aboutTeam.css';
-@import './components/includes/footer.css';
+/* INCLUDES */
+@import './includes/megaNav.css';
+@import './includes/footer.css';
+/* HOME PAGE */
+@import './homePage/jumboTron.css';
+@import './homePage/cardSection.css';
+@import './homePage/introSection.css';
+@import './homePage/specialServices.css';
+@import './homePage/projectsSection.css';
+@import './homePage/aboutTeam.css';
+/* PAGES */
 
 body{
     font-family: 'Work Sans', sans-serif;

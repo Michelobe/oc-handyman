@@ -1,10 +1,10 @@
 import React from 'react';
-import electrical from '../images/project-section/electric-wires.jpg';
-import cabinetry from '../images/project-section/kitchen-cabinet.jpg';
-import plumbing from '../images/project-section/plumbing-install.jpg';
-import sink from '../images/project-section/sink-leaking.jpg';
-import tile from '../images/project-section/tile-installation.jpg';
-import flooring from '../images/project-section/panel-flooring-installation.jpg';
+import electrical from '../../../images/project-section/electric-wires.jpg';
+import cabinetry from '../../../images/project-section/kitchen-cabinet.jpg';
+import plumbing from '../../../images/project-section/plumbing-install.jpg';
+import sink from '../../../images/project-section/sink-leaking.jpg';
+import tile from '../../../images/project-section/tile-installation.jpg';
+import flooring from '../../../images/project-section/panel-flooring-installation.jpg';
 
 
 const ProjectsSection = () => {
