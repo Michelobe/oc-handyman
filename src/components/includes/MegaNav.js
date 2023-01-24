@@ -10,16 +10,12 @@ const MegaNav = () => {
                 </div>
                 <div className='container upperHeaderText'>
                     <div className='phoneText'>
-                        <i className="fas fa-mobile"></i><p className="noMobile">(123)456-7890</p>
+                        <p className="noMobile">(714)906-6237</p>
                     </div>
                     <div className='emailSocialText'>
-                        <p className='emailInfo'>Email: info@example.com</p>
-                        <ul className='socialFlexContainer noMobile'>
-                            <li className='socialIcon'>FB</li>
-                            <li className='socialIcon'>TW</li>
-                            <li className='socialIcon'>IG</li>
-                            <li className='socialIcon'>YP</li>
-                        </ul>
+                        <a href="https://www.yelp.com/biz/oc-local-handyman-huntington-beach?utm_campaign=www_business_share_popup&utm_medium=copy_link&utm_source=(direct)" target="_blank" rel="noopener noreferrer">
+                            <div className='socialIcon'><i className="fab fa-yelp"></i></div>
+                        </a>
                     </div>
                 </div>
             </div>

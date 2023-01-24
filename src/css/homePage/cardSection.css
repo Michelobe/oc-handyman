@@ -49,14 +49,15 @@
     font-size: 1.35rem;
 }
 
-.cardSection .cardContainer .card button {
+.cardSection .cardContainer .card a {
     margin-top: 1.55rem;
-    padding: 0.2rem 1rem;
-    border: none;
+    padding: 0.5rem 1rem;
+    border: 1px solid orange;
     font-weight: 600;
     font-size: 1.1rem;
     color: orange;
     background: transparent;
+    text-decoration: none;
 }
 
 

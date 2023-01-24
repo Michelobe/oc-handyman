@@ -1,14 +1,11 @@
-import React from 'react';
-import electrical from '../../../images/project-section/electric-wires.jpg';
-import cabinetry from '../../../images/project-section/kitchen-cabinet.jpg';
-import plumbing from '../../../images/project-section/plumbing-install.jpg';
-import sink from '../../../images/project-section/sink-leaking.jpg';
-import tile from '../../../images/project-section/tile-installation.jpg';
-import flooring from '../../../images/project-section/panel-flooring-installation.jpg';
+import React, { useState } from 'react';
+import projectsData from './projectsInfo.js';
 
 
 const ProjectsSection = () => {
-
+    const projectInformation = useState(projectsData);
+    const projectArray = projectInformation[0];
+    console.log(projectArray);
 
 
     return (
@@ -21,37 +18,37 @@ const ProjectsSection = () => {
                     </header>
                     <nav className='mobileNav'>
                         <select className='navDrop' name="job" id="job">
-                            <option className='dropOption' value="All">All</option>
-                            <option className='dropOption' value="Electrical">Electrical</option>
-                            <option className='dropOption' value="Cabinetry">Cabinetry</option>
-                            <option className='dropOption' value="Painting">Painting</option>
-                            <option className='dropOption' value="Plumbing">Plumbing</option>
-                            <option className='dropOption' value="Flooring">Flooring</option>
-                            <option className='dropOption' value="Maintenance">Maintenance</option>
+                            <option className='dropOption' value="All" type='button' data-btn='1'>All</option>
+                            <option className='dropOption' value="Electrical" type='button' data-btn='2'>Electrical</option>
+                            <option className='dropOption' value="Cabinetry" type='button' data-btn='3'>Cabinetry</option>
+                            <option className='dropOption' value="Painting" type='button' data-btn='4'>Painting</option>
+                            <option className='dropOption' value="Plumbing" type='button' data-btn='5'>Plumbing</option>
+                            <option className='dropOption' value="Flooring" type='button' data-btn='6'>Flooring</option>
+                            <option className='dropOption' value="Maintenance" type='button' data-btn='7'>Maintenance</option>
                         </select>
                     </nav>
                     <div className='projectsNavBtns'>
                         <ul className='navBtns'>
                             <li>
-                                <button className='projectButton'>All</button>
+                                <button className='projectButton' type='button' data-btn='1'>All</button>
                             </li>
                             <li>
-                                <button className='projectButton'>Electrical</button>
+                                <button className='projectButton' type='button' data-btn='2'>Electrical</button>
                             </li>
                             <li>
-                                <button className='projectButton'>Cabinetry</button>
+                                <button className='projectButton' type='button' data-btn='3'>Cabinetry</button>
                             </li>
                             <li>
-                                <button className='projectButton'>Painting</button>
+                                <button className='projectButton' type='button' data-btn='4'>Painting</button>
                             </li>
                             <li>
-                                <button className='projectButton'>Plumbing</button>
+                                <button className='projectButton' type='button' data-btn='5'>Plumbing</button>
                             </li>
                             <li>
-                                <button className='projectButton'>Flooring</button>
+                                <button className='projectButton' type='button' data-btn='6'>Flooring</button>
                             </li>
                             <li>
-                                <button className='projectButton'>Maintenance</button>
+                                <button className='projectButton' type='button' data-btn='7'>Maintenance</button>
                             </li>
                         </ul>
                     </div>
@@ -61,14 +58,14 @@ const ProjectsSection = () => {
                 <div className='projectTiles'>
                     <div className='projectTile'>
                         <div className='tilePhoto'>
-                            <img src={electrical} alt="Electrical Wires" />
+                            <img src={projectArray[0].img} alt={projectArray[0].alt} />
                         </div>
                         <div className='tileHover'>
                             <div className="tileHoverPopup">
                                 <div className="tileShade"></div>
                                 <div className='tileContent'>
-                                    <h6>Painting, Plumbing</h6>
-                                    <h2>Electrical - Orange, CA</h2>
+                                    <h6>{projectArray[0].header}</h6>
+                                    <h2>{projectArray[0].location}</h2>
                                     <div className='tileBottomBorder'></div>
                                 </div>
                             </div>
@@ -76,14 +73,14 @@ const ProjectsSection = () => {
                     </div>
                     <div className='projectTile'>
                         <div className='tilePhoto'>
-                            <img src={cabinetry} alt="Electrical Wires" />
+                            <img src={projectInformation[0][1].img} alt={projectInformation[0][1].alt} />
                         </div>
                         <div className='tileHover'>
                             <div className="tileHoverPopup">
                                 <div className="tileShade"></div>
                                 <div className='tileContent'>
-                                    <h6>Painting, Plumbing</h6>
-                                    <h2>Electrical - Orange, CA</h2>
+                                    <h6>{projectInformation[0][1].header}</h6>
+                                    <h2>{projectInformation[0][1].location}</h2>
                                     <div className='tileBottomBorder'></div>
                                 </div>
                             </div>
@@ -91,14 +88,14 @@ const ProjectsSection = () => {
                     </div>
                     <div className='projectTile'>
                         <div className='tilePhoto'>
-                            <img src={sink} alt="Electrical Wires" />
+                            <img src={projectInformation[0][2].img} alt={projectInformation[0][2].alt} />
                         </div>
                         <div className='tileHover'>
                             <div className="tileHoverPopup">
                                 <div className="tileShade"></div>
                                 <div className='tileContent'>
-                                    <h6>Painting, Plumbing</h6>
-                                    <h2>Electrical - Orange, CA</h2>
+                                    <h6>{projectInformation[0][2].header}</h6>
+                                    <h2>{projectInformation[0][2].location}</h2>
                                     <div className='tileBottomBorder'></div>
                                 </div>
                             </div>
@@ -106,14 +103,14 @@ const ProjectsSection = () => {
                     </div>
                     <div className='projectTile'>
                         <div className='tilePhoto'>
-                            <img src={tile} alt="Electrical Wires" />
+                            <img src={projectInformation[0][3].img} alt={projectInformation[0][3].alt} />
                         </div>
                         <div className='tileHover'>
                             <div className="tileHoverPopup">
                                 <div className="tileShade"></div>
                                 <div className='tileContent'>
-                                    <h6>Painting, Plumbing</h6>
-                                    <h2>Electrical - Orange, CA</h2>
+                                    <h6>{projectInformation[0][3].header}</h6>
+                                    <h2>{projectInformation[0][3].location}</h2>
                                     <div className='tileBottomBorder'></div>
                                 </div>
                             </div>
@@ -121,14 +118,14 @@ const ProjectsSection = () => {
                     </div>
                     <div className='projectTile'>
                         <div className='tilePhoto'>
-                            <img src={plumbing} alt="Electrical Wires" />
+                            <img src={projectInformation[0][4].img} alt={projectInformation[0][4].alt} />
                         </div>
                         <div className='tileHover'>
                             <div className="tileHoverPopup">
                                 <div className="tileShade"></div>
                                 <div className='tileContent'>
-                                    <h6>Painting, Plumbing</h6>
-                                    <h2>Electrical - Orange, CA</h2>
+                                    <h6>{projectInformation[0][4].header}</h6>
+                                    <h2>{projectInformation[0][4].location}</h2>
                                     <div className='tileBottomBorder'></div>
                                 </div>
                             </div>
@@ -136,14 +133,14 @@ const ProjectsSection = () => {
                     </div>
                     <div className='projectTile'>
                         <div className='tilePhoto'>
-                            <img src={flooring} alt="Electrical Wires" />
+                            <img src={projectInformation[0][5].img} alt={projectInformation[0][5].alt} />
                         </div>
                         <div className='tileHover'>
                             <div className="tileHoverPopup">
                                 <div className="tileShade"></div>
                                 <div className='tileContent'>
-                                    <h6>Painting, Plumbing</h6>
-                                    <h2>Electrical - Orange, CA</h2>
+                                    <h6>{projectInformation[0][5].header}</h6>
+                                    <h2>{projectInformation[0][5].location}</h2>
                                     <div className='tileBottomBorder'></div>
                                 </div>
                             </div>

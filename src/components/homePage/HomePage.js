@@ -4,10 +4,11 @@ import JumboTron from './sections/JumboTron.js';
 import CardSection from './sections/CardSection.js';
 import IntroSection from './sections/IntroSection.js';
 import SpecialServices from './sections/SpecialServices.js';
-import ProjectsSection from './sections/ProjectsSection.js';
+import ProjectsSection from './sections/projectsSection/ProjectsSection.js';
 import AboutTeam from './sections/AboutTeam.js';
 
 function HomePage() {
+
     return (
         <div>
             <JumboTron />

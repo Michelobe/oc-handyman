@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from "react-router-dom";
 
 const CardSection = () => {
   return (
@@ -11,7 +12,9 @@ const CardSection = () => {
                   </div>
                   <h1>10+ Years Professional Experience</h1>
                   <p>Extensive experience allows us to get the job done right.</p>
-                  <button>More Services</button>
+                  <Link to="/experience" relative="path">
+                    More Experience
+                  </Link>
               </div>
               <div className='card'>
                   <div className='iconContainer'>
@@ -19,7 +22,9 @@ const CardSection = () => {
                   </div>
                   <h1>Multiple Services Available</h1>
                   <p>Our team has the knowledge & skills for tasks you need.</p>
-                  <button>More Services</button>
+                  <Link to="/services" relative="path">
+                    More Services
+                  </Link>
               </div>
               <div className='card'>
                   <div className='iconContainer'>
@@ -27,7 +32,9 @@ const CardSection = () => {
                   </div>
                   <h1>Trust Customers Can Always Depend Upon</h1>
                   <p>Providing happy customers throughout Orange County.</p>
-                  <button>More Services</button>
+                  <Link to="/about" relative="path">
+                    More Trust
+                  </Link>
               </div>
           </div>
       </section>
