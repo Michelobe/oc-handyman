@@ -83,8 +83,8 @@
     flex-flow: row nowrap;
     padding: 0 0 0 1rem;
 }
-.headerSection .upperHeader .upperHeaderText .emailSocialText .socialFlexContainer .socialIcon {
-    padding: 0.25rem;
+.headerSection .upperHeader .upperHeaderText .emailSocialText .socialIcon {
+    font-size: 2rem;
 }
 .headerSection .lowerHeader {
     display: flex;

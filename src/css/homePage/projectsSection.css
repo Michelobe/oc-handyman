@@ -64,6 +64,17 @@
     font-weight: bold;
 }
 
+/* CLASSES FOR JS */
+.images .img-expand {
+    width: 25rem;
+    margin: 1rem;
+}
+.images .img-shrink {
+    width: 0rem;
+    margin: -1rem;
+}
+
+
 /* TILES */
 .projectsSection {
     display: flex;
