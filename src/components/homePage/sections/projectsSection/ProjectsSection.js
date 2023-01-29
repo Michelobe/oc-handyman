@@ -13,6 +13,7 @@ const ProjectsSection = () => {
     var [plumbing, setPlumbing] = useState(true);
     var [flooring, setFlooring] = useState(true);
     var [maintenance, setMaintenance] = useState(true);
+    console.log(electrical,cabinetry,painting,plumbing,flooring,maintenance);
 
 
 
