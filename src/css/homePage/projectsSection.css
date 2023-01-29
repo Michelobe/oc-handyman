@@ -7,11 +7,6 @@
 }
 
 /* NAVBAR */
-.mobileNav{
-    position: absolute;
-    display: none;
-    opacity: 0;
-}
 .projectsSection .projectsNav {
     display: flex;
     flex-flow: row;
@@ -35,12 +30,27 @@
     font-weight: bold;
 }
 /* MOBILE NAV */
+.projectsSection .projectsNav .mobileNav{
+    display: none;
+    opacity: 0;
+    position: relative;
+}
 .projectsSection .projectsNav .mobileNav .navDrop{
     font-size: 2rem;
     border: 5px solid green;
     text-transform: uppercase;
     color: green;
-    padding: .5rem;
+    padding: 0 .5rem .5rem .5rem;
+    height: 26px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: white;
+    z-index: 6;
+}
+.projectsSection .projectsNav .mobileNav .navDrop:hover{
+    height: 247.63px;
 }
 
 /* NAV BUTTONS */
@@ -62,16 +72,6 @@
     border-radius: 5px;
     font-size: 1rem;
     font-weight: bold;
-}
-
-/* CLASSES FOR JS */
-.images .img-expand {
-    width: 25rem;
-    margin: 1rem;
-}
-.images .img-shrink {
-    width: 0rem;
-    margin: -1rem;
 }
 
 
@@ -96,7 +96,15 @@
     color: white;
     margin: .3rem;
     overflow: hidden;
+    transition: all .3s ease-in-out;
 }
+
+/* NONACTIVE CLASS */
+.projectsSection .projectTiles .projectTile.nonActive{
+    width: 0;
+    height: 0;
+}
+
 /* BACKGROUND */
 .projectsSection .projectTiles .projectTile .tilePhoto{
     position: absolute;
@@ -167,6 +175,11 @@
     border-bottom: 3px solid orange;
 }
 
+/* ACTIVE - NONACTIVE */
+.nonActive{
+    display: none !important;
+}
+
 
 /* BREAKPOINTS */
 
@@ -179,15 +192,13 @@
     .projectsSection .projectTiles .projectTile {
         width: 32%;
     }
-}
-@media only screen and (max-width: 1295px){
-    .mobileNav{
-        position: initial;
+    .projectsSection .projectsNav .mobileNav{
+        position: relative;
         display: initial;
         opacity: 1;
         margin-bottom: 2rem;
     }
-    .projectsNavBtns{
+    .projectsSection .projectsNav .projectsNavBtns{
         position: absolute;
         display: none;
         opacity: 0;
@@ -213,10 +224,20 @@
     .projectsSection .projectTiles .projectTile {
         width: 48%;
     }
+    .projectsSection .projectTiles .projectTile .tileHover{
+        transform: translateY(-16.4%);
+        opacity: 1;
+    }
+    .projectsSection{
+        padding-bottom: 12rem;
+    }
 }
 @media only screen and (max-width: 668px){
     .projectsSection .projectsNav {
         flex-flow: column;
+    }
+    .projectsSection .projectsNav .mobileNav .navDrop{
+        position: initial;
     }
 }
 @media only screen and (max-width: 650px){
@@ -238,6 +259,9 @@
 @media only screen and (max-width: 450px){
     .projectsSection{
         margin: 11rem 0 4rem 0;
+    }
+    .projectsSection .projectsNav .mobileNav{
+        position: relative;
     }
 }
 
