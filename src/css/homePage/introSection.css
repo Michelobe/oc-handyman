@@ -14,7 +14,7 @@
 .introSection .introSectionContainer .leftColumn .lgPlaceholder {
     width: 67%;
     height: 88%;
-    background-color: green;
+    background-color: #015351;
     overflow: hidden;
 }
 .introSection .introSectionContainer .leftColumn .lgPlaceholder > img{
@@ -26,7 +26,7 @@
     position: absolute;
     right: 12%;
     top: 30%;
-    background-color: orange;
+    background-color: #FEB236;
     border: 1rem solid white;
     overflow: hidden;
 }
@@ -37,7 +37,7 @@
     width: 50%;
 }
 .introSection .introSectionContainer .rightColumn .headerDiv {
-    border-left: 0.5rem solid orange;
+    border-left: 0.5rem solid #FEB236;
     margin-bottom: 2rem;
 }
 .introSection .introSectionContainer .rightColumn .headerDiv h6 {
@@ -66,7 +66,7 @@
 }
 .introSection .introSectionContainer .rightColumn .infoDiv .aboutBtn {
     font-weight: bold;
-    color: orange;
+    color: #FEB236;
     margin-top: 1.5rem;
     display: flex;
 }
@@ -89,7 +89,7 @@
 .introSection .introSectionContainer .rightColumn .quickInfo .quickInfoCard i {
     padding: 1.2rem;
     font-size: 2rem;
-    color: orange;
+    color: #FEB236;
 }
 .introSection .introSectionContainer .rightColumn .quickInfo .quickInfoCard .quickInfoP {
     font-weight: 600;

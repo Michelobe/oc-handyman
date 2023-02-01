@@ -17,21 +17,21 @@
     height: 100%;
     z-index: 1;
 }
-.jumboTron .coverContainer .darkCover {
+/* .jumboTron .coverContainer .darkCover {
     top: 0;
     left: 0;
     position: absolute;
     background: rgba(0, 0, 0, .95);
     height: 100%;
     width: 30%;
-}
+} */
 .jumboTron .coverContainer .lightCover {
     top: 0;
     right: 0;
     position: absolute;
     background: rgba(0, 0, 0, .75);
     height: 100%;
-    width: 70%;
+    width: 100%;
 }
 .jumboTron .jumboText {
     z-index: 6;
@@ -50,7 +50,7 @@
     color: white;
 }
 .jumboTron .jumboText .ctaBtn {
-    background: orange;
+    background: #FEB236;
     padding: 0.5rem 2rem;
     margin-top: 3rem;
     border: none;
@@ -58,7 +58,7 @@
     font-size: 2rem;
 }
 
-/* MEDI QUERIES */
+/* MEDIA QUERIES */
 @media only screen and (max-width: 1800px) {
     .jumboTron .jumboText > h3 {
         font-size: 2rem;
