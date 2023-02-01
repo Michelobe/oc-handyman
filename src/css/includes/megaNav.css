@@ -46,3 +46,9 @@
 .headerSection .lowerMegaNav .menuContainer .menuNav .menuLink{
     padding-left: 1rem;
 }
+
+@media only screen and (max-width: 1200px){
+    .headerSection .lowerMegaNav .menuContainer{
+        display: none;
+    }
+}
