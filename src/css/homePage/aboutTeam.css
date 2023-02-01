@@ -2,7 +2,7 @@
 
 
 .aboutTeam {
-    background-color: orange;
+    background-color: #FEB236;
     height:34rem;
     position: relative;
     margin-bottom: 18rem;
@@ -61,7 +61,7 @@
 .aboutTeam .teamIntro .teammate .teamPhoto{
     width: 100%;
     height: 80%;
-    background: green;
+    background: #015351;
 }
 .aboutTeam .teamIntro .teammate > h2{
     font-size: 1.5rem;
