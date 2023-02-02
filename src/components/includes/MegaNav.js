@@ -9,9 +9,9 @@ const MegaNav = () => {
                     <div className='socialIcon'><i className="fab fa-yelp"></i></div>
                 </a>
             </div>
-            <div className="container">
-                <div className="lowerMegaNav">
-                    <p className="logo">OC Local Handyman</p>
+            <div className="lowerMegaNav">
+                <div className="lowerNavContainer">
+                    <p className="logo">OCLH</p>
                     <div className="menuContainer">
                         <ul className="menuNav">
                             <li className="menuLink">About</li>

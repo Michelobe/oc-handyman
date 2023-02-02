@@ -16,7 +16,7 @@
 
 /* NAV HEADER */
 .projectsSection .projectsNav .projectsHeader {
-    border-left: 0.5rem solid #FEB236;
+    border-left: 0.5rem solid #D90D43;
     margin-bottom: 2rem;
 }
 .projectsSection .projectsNav .projectsHeader h6 {
@@ -53,7 +53,7 @@
     height: 247.63px;
 }
 .projectsSection .projectsNav .mobileNav .navDrop > li:hover{
-    background: #FEB236;
+    background: #D90D43;
 }
 
 /* NAV BUTTONS */
@@ -162,7 +162,7 @@
     font-weight: bold;
     letter-spacing: 1px;
     font-size: 1rem;
-    color: #015351;
+    color: #D90D43;
 }
 .projectsSection .projectTiles .projectTile .tileHover .tileHoverPopup .tileContent > h2{
     margin-bottom: 1.2rem;
@@ -175,7 +175,7 @@
 .projectsSection .projectTiles .projectTile .tileBottomBorder{
     width: 6rem;
     height: .5rem;
-    border-bottom: 3px solid #FEB236;
+    border-bottom: 3px solid #D90D43;
 }
 
 /* ACTIVE - NONACTIVE */
