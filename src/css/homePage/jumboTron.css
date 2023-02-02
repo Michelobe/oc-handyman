@@ -1,3 +1,5 @@
+
+
 .jumboTron {
     background: url("../../images/plier-hammer-crescent-wrench-tape-measure-tools.jpg") center center no-repeat;
     width: 100%;
@@ -17,14 +19,6 @@
     height: 100%;
     z-index: 1;
 }
-/* .jumboTron .coverContainer .darkCover {
-    top: 0;
-    left: 0;
-    position: absolute;
-    background: rgba(0, 0, 0, .95);
-    height: 100%;
-    width: 30%;
-} */
 .jumboTron .coverContainer .lightCover {
     top: 0;
     right: 0;
@@ -38,7 +32,7 @@
 }
 .jumboTron .jumboText > h3 {
     font-size: 2.5rem;
-    color: white;
+    color: #DEDEDE;
 }
 .jumboTron .jumboText > h1 {
     font-size: 9rem;
@@ -47,10 +41,10 @@
 }
 .jumboTron .jumboText > p {
     font-size: 2.5rem;
-    color: white;
+    color: #DEDEDE;
 }
 .jumboTron .jumboText .ctaBtn {
-    background: #FEB236;
+    background: #D90D43;
     padding: 0.5rem 2rem;
     margin-top: 3rem;
     border: none;

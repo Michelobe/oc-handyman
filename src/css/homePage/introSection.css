@@ -37,7 +37,7 @@
     width: 50%;
 }
 .introSection .introSectionContainer .rightColumn .headerDiv {
-    border-left: 0.5rem solid #FEB236;
+    border-left: 0.5rem solid #D90D43;
     margin-bottom: 2rem;
 }
 .introSection .introSectionContainer .rightColumn .headerDiv h6 {
@@ -66,7 +66,7 @@
 }
 .introSection .introSectionContainer .rightColumn .infoDiv .aboutBtn {
     font-weight: bold;
-    color: #FEB236;
+    color: #D90D43;
     margin-top: 1.5rem;
     display: flex;
 }
@@ -89,7 +89,7 @@
 .introSection .introSectionContainer .rightColumn .quickInfo .quickInfoCard i {
     padding: 1.2rem;
     font-size: 2rem;
-    color: #FEB236;
+    color: #D90D43;
 }
 .introSection .introSectionContainer .rightColumn .quickInfo .quickInfoCard .quickInfoP {
     font-weight: 600;

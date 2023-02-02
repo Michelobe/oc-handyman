@@ -28,7 +28,7 @@
 .cardSection .cardContainer .card .iconContainer {
     padding: 1.5rem 1.6rem;
     font-size: 2rem;
-    background: #FEB236;
+    background: #D90D43;
     color: white;
 }
 
@@ -52,10 +52,10 @@
 .cardSection .cardContainer .card a {
     margin-top: 1.55rem;
     padding: 0.5rem 1rem;
-    border: 1px solid #FEB236;
+    border: 1px solid #D90D43;
     font-weight: 600;
     font-size: 1.1rem;
-    color: #FEB236;
+    color: #D90D43;
     background: transparent;
     text-decoration: none;
 }
