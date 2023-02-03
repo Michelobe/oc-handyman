@@ -19,7 +19,7 @@ const AboutTeam = () => {
                     <div className='teamIntro'>
                         <div className='teammate'>
                             <div className='teamPhoto'></div>
-                            <h2>Inigo Montoya</h2>
+                            <h2>Earl Simmons</h2>
                             <h6>Handyman</h6>
                         </div>
                         <div className='teammate'>
