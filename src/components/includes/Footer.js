@@ -1,12 +1,13 @@
 import React from 'react';
+import yelp from '../../images/yelp-review-image.png';
 
 const Footer = () => {
     return (
         <footer className='footerSection'>
+            <div className='footerCta'>
+                <img src={yelp} alt="Yelp Review" />
+            </div>
             <div className='container'>
-                <div className='footerCta'>
-                    <h1>Check out the yelp page</h1>
-                </div>
                 <div className='footerContent'>
                     <div className='footerCol'>
                         <h2 className='footerHeader'>OC Handyman</h2>

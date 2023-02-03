@@ -4,14 +4,17 @@
     background: #222222;
     position: relative;
     overflow: hidden;
+    margin-top: 18rem;
 }
 
 .footerSection .footerCta{
+    margin: 0 auto;
+    text-align: center;
     position: relative;
-    top: -3rem;
-    height: 8rem;
-    background: white;
-    box-shadow: 0px 1px 27px -12px rgba(0, 0, 0, 0.75);
+    top: -4rem;
+}
+.footerSection .footerCta > img{
+    position: relative;
 }
 .footerSection .footerContent{
     display: flex;
@@ -32,7 +35,7 @@
     font-size: 1.5rem;
     font-weight: bold;
     color: white;
-    border-left: 3px solid orange;
+    border-left: 3px solid #D90D43;
     padding-left: .55rem;
     margin-bottom: 1rem;
 }
@@ -62,7 +65,7 @@
     padding-top: .5rem;
 }
 .footerSection .footerContent .footerCol .workHours .workday .closingTime{
-    color: orange;
+    color: #D90D43;
     font-weight: bold;
 }
 .footerSection .footerContent .footerCol .columnLinks{
