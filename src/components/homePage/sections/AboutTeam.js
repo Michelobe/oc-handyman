@@ -1,4 +1,5 @@
 import React from 'react';
+import Handyman from '../../../images/handyman-placeholder.png';
 
 const AboutTeam = () => {
     return (
@@ -7,24 +8,24 @@ const AboutTeam = () => {
                 <div className='sectionDownshift'>
                     <header className='aboutHeader'>
                         <div className='headerDiv'>
-                            <h4>Work with the Best</h4>
+                            <h4>OC Local Handyman</h4>
                             <h2>Our skilled team</h2>
                         </div>
                         <div className='headerInfo'>
                             <p className='columnContent'>
-                                Carpentry is a skilled trade and a craft in which the primary work performed is the cutting.
+                                Team members from all around the construction industry add professional experience to OC Local Handyman. 
                             </p>
                         </div>
                     </header>
                     <div className='teamIntro'>
                         <div className='teammate'>
-                            <div className='teamPhoto'></div>
-                            <h2>Earl Simmons</h2>
+                            <div className='teamPhoto'><img src={Handyman} alt="Handyman" /></div>
+                            <h2>Steve De La Riva</h2>
                             <h6>Handyman</h6>
                         </div>
                         <div className='teammate'>
-                            <div className='teamPhoto'></div>
-                            <h2>Inigo Montoya</h2>
+                            <div className='teamPhoto'><img src={Handyman} alt="Handyman" /></div>
+                            <h2>Brian Welsh</h2>
                             <h6>Handyman</h6>
                         </div>
                     </div>

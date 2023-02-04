@@ -1,0 +1,76 @@
+
+/* ==================== MOBILE MENU =================== */
+.mobileMenu{
+    position: absolute;
+}
+.mobileMenu .menuBtn{
+    position: fixed;
+    display: none;
+    font-size: 1.5rem;
+    padding: .1rem .3rem;
+    border: 4px black solid;
+    border-radius: 25%;
+    color: black;
+    z-index: 6;
+}
+.mobileMenu .halfMenu{
+    position: fixed;
+    background: #222222;
+    color: white;
+    top: 0;
+    z-index: 150;
+    width: 50vw;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.mobileMenu .halfMenu p{
+    height: 50vh;
+    padding: 5rem 3rem;
+    cursor: pointer;
+}
+.mobileMenu .leftMenu{
+    left: 110vw;
+    transition: all .7s ease-in-out;
+    display: none;
+}
+.mobileMenu .rightMenu{
+    left: 110vw;
+    transition: all .7s ease-in-out;
+    display: none;
+}
+.mobileMenu .rightMenu a{
+    color: white;
+    text-decoration: none;
+}
+.mobileMenu .rightMenu .exitBtn{
+    position: absolute;
+    font-size: 3rem;
+    top: 0;
+    right: 0;
+    padding: .5rem;
+}
+.mobileMenu .leftMenu.active{
+    left: 0;
+}
+.mobileMenu .rightMenu.active{
+    left: 50vw;
+}
+
+@media only screen and (max-width: 660px) {
+    .mobileMenu{
+        position: initial;
+    }
+   .mobileMenu .menuBtn{
+        position: static;
+        display: initial;
+        margin-right: 1rem;
+   }
+   .mobileMenu .leftMenu{
+       display: initial;
+   }
+   .mobileMenu .rightMenu{
+    display: initial;
+   }
+}

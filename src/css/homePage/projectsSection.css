@@ -52,8 +52,11 @@
 .projectsSection .projectsNav .mobileNav .navDrop:hover{
     height: 247.63px;
 }
-.projectsSection .projectsNav .mobileNav .navDrop > li:hover{
+.projectsSection .projectsNav .mobileNav .navDrop > li:hover,
+.projectsSection .projectsNav .mobileNav .navDrop > li:focus{
     background: #D90D43;
+    color: white;
+    border: 1px solid white;
 }
 
 /* NAV BUTTONS */
@@ -75,6 +78,12 @@
     border-radius: 5px;
     font-size: 1rem;
     font-weight: bold;
+}
+.projectsSection .projectsNav .projectsNavBtns .navBtns .projectButton:hover,
+.projectsSection .projectsNav .projectsNavBtns .navBtns .projectButton:focus {
+    background: #D90D43;
+    color: white;
+    border: 1px solid white;
 }
 
 
