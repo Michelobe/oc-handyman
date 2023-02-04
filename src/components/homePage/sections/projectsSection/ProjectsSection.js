@@ -29,7 +29,6 @@ const ProjectsSection = () => {
             projectArray[i].toggleActive=true;
         }
     };
-    
     var electricalOption = () => {
         setElectrical(true);
         setCabinetry(false);
@@ -48,7 +47,6 @@ const ProjectsSection = () => {
             }
         }
     };
-
     var cabinetryOption = () => {
         setElectrical(false);
         setCabinetry(true);
@@ -145,8 +143,8 @@ const ProjectsSection = () => {
             <div className='container'>
                 <nav className='projectsNav'>
                     <header className='projectsHeader'>
-                        <h6>Recently Completed</h6>
-                        <h2>OCHandyman's Latest</h2>
+                        <h6>OC Local Handyman's Latest</h6>
+                        <h2>Recently Completed</h2>
                     </header>
                     <nav className='mobileNav'>
                         <ul className='navDrop' name="job" id="job">

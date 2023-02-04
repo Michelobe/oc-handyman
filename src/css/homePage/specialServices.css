@@ -3,7 +3,7 @@
     background: #222222;
     color: white;
     padding: 6rem 0 4.5rem 0;
-    margin: 6rem 0;
+    margin: 6rem 0 5rem 0;
     position: relative;
     height: 31.65rem;
 }
@@ -13,7 +13,7 @@
     max-width: 44%;
 }
 .specialServicesSection .leftColumn .headerDiv {
-    border-left: 0.5rem solid rgb(255, 255, 255);
+    border-left: 0.5rem solid #D90D43;
     margin-bottom: 1rem;
 }
 .specialServicesSection .leftColumn .headerDiv > h4 {
@@ -40,13 +40,18 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.428);
 }
 .specialServicesSection .leftColumn .quickInfo .quickInfoCard .infoIconContainer{
-    border: 2px solid white;
+    border: 2px solid #D90D43;
     height: 4.45rem;
     margin: 0 1.2rem 0 0;
+    min-width: 82px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
 }
 .specialServicesSection .leftColumn .quickInfo .quickInfoCard .infoIconContainer > i{
     padding: 1rem;
     font-size: 2.5rem;
+    color: #D90D43;
 }
 .specialServicesSection .leftColumn .quickInfo .quickInfoCard .infoCardContent > h5{
     font-size: 1.65rem;

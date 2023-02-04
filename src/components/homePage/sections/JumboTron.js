@@ -14,7 +14,7 @@ const JumboTron = () => {
                     <span style={{color: '#DEDEDE'}}> Local 
                     <br /> Handyman</span>
                 </h1>
-                <p>Professional Commercial and Domestic Service Provider</p>
+                <p>Professional Domestic Service Provider</p>
                 <button className='ctaBtn'>CALL</button>
             </div>
         </section>

@@ -6,6 +6,7 @@
 
 /* INCLUDES */
 @import './includes/megaNav.css';
+@import './includes/mobileMenu.css';
 @import './includes/footer.css';
 /* HOME PAGE */
 @import './homePage/jumboTron.css';

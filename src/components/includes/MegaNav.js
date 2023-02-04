@@ -1,4 +1,5 @@
 import React from 'react';
+import MobileMenu from './MobileMenu.js';
 
 const MegaNav = () => {
     return (
@@ -11,6 +12,7 @@ const MegaNav = () => {
             </div>
             <div className="lowerMegaNav">
                 <div className="lowerNavContainer">
+
                     <p className="logo">OCLH</p>
                     <div className="menuContainer">
                         <ul className="menuNav">
@@ -21,6 +23,9 @@ const MegaNav = () => {
                             <li className="menuLink">Contact</li>
                         </ul>
                     </div>
+                    <MobileMenu />
+
+
                 </div>
             </div>
         </section>
