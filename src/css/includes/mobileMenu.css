@@ -65,7 +65,6 @@
    .mobileMenu .menuBtn{
         position: static;
         display: initial;
-        margin-right: 1rem;
    }
    .mobileMenu .leftMenu{
        display: initial;

@@ -15,12 +15,13 @@
     padding: .25rem 0;
 }
 .headerSection .upperMegaNav > p{
-    padding-right: 1rem;
     border-right: 1px solid #04aa6d63;
 }
 .headerSection .upperMegaNav > a{
     padding-left: 1rem;
     color: #D90D43;
+    text-decoration: none;
+    font-family: monospace;
 }
 
 /* LOWER  NAV*/

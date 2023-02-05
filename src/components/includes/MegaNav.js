@@ -6,8 +6,8 @@ const MegaNav = () => {
         <section className='headerSection'>
             <div className='upperMegaNav'>
                 <p className="noMobile">(714)906-6237</p>
-                <a href="https://www.yelp.com/biz/oc-local-handyman-huntington-beach?utm_campaign=www_business_share_popup&utm_medium=copy_link&utm_source=(direct)" target="_blank" rel="noopener noreferrer">
-                    <div className='socialIcon'><i className="fab fa-yelp"></i></div>
+                <a href="https://www.yelp.com/biz/ie-1-handyman-lake-elsinore">
+                    <div className='socialIcon'>Yelp<i className="fab fa-yelp" style={{paddingLeft: '2px'}}></i></div>
                 </a>
             </div>
             <div className="lowerMegaNav">
