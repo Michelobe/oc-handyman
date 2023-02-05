@@ -3,18 +3,23 @@
 .footerSection{
     background: #222222;
     position: relative;
-    overflow: hidden;
-    margin-top: 18rem;
+    margin-top: 24rem;
+    padding-top: 14rem;
 }
 
 .footerSection .footerCta{
     margin: 0 auto;
     text-align: center;
-    position: relative;
-    top: -4rem;
+    position: absolute;
+    top: -7rem;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
 }
 .footerSection .footerCta > img{
-    position: relative;
+    position: initial;
+    width: 750px;
 }
 .footerSection .footerContent{
     display: flex;
@@ -91,9 +96,43 @@
 
 /* BREAKPOINTS */
 
+@media only screen and (max-width: 939px){
+    .footerSection{
+        margin-top: 27rem;
+        padding-top: 12rem;
+    }
+}
+@media only screen and (max-width: 800px){
+    .footerSection{
+        margin-top: 24rem;
+    }
+    .footerSection .footerCta > img{
+        width: 95%;
+    }
+}
+@media only screen and (max-width: 720px){
+    .footerSection{
+        padding-top: 10rem;
+    }
+}
+@media only screen and (max-width: 650px){
+    .footerSection{
+        padding-top: 8rem;
+    }
+}
+@media only screen and (max-width: 600px){
+    .footerSection{
+        padding-top: 7rem;
+    }
+}
 @media only screen and (max-width: 565px){
     .footerSection .footerContent {
         flex-flow: column;
+    }
+}
+@media only screen and (max-width: 564px){
+    .footerSection{
+        padding-top: 5rem;
     }
 }
 

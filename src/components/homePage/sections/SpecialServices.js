@@ -23,7 +23,7 @@ const SpecialServices = () => {
                         <div className='infoCardContent'>
                             <h5>Get To Know Us</h5>
                             <p className='columnContent'>
-                                Get to know more about OC Local Handyman by meeting our team or checking out our <a href="https://www.yelp.com/biz/ie-1-handyman-lake-elsinore" style={{textDecoration: 'none', color: '#D90D43', fontSize: '1.1rem'}}>yelp<i className="fab fa-yelp" style={{paddingLeft: '2px'}}></i></a>.
+                                Get to know more about OC Local Handyman by meeting our team or checking out our <a href="https://www.yelp.com/biz/ie-1-handyman-lake-elsinore" style={{textDecoration: 'none', color: '#D90D43', fontSize: '1.1rem'}}>Yelp<i className="fab fa-yelp" style={{paddingLeft: '2px'}}></i></a>.
                             </p>
                         </div>
                     </div>
