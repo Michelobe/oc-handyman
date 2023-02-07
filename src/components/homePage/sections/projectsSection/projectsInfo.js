@@ -5,6 +5,7 @@ import plumbing from '../../../../images/project-section/plumbing-install.jpg';
 import sink from '../../../../images/project-section/sink-leaking.jpg';
 import tile from '../../../../images/project-section/tile-installation.jpg';
 import flooring from '../../../../images/project-section/panel-flooring-installation.jpg';
+import underConstruction from '../../../../images/project-section/under-construction.jpg';
 // TYPES
 //  - electrical
 //  - cabinetry
@@ -60,6 +61,14 @@ var projectsData = () => [
         location: 'Yorba Linda, CA',
         toggleActive: true
     },
+    {
+        type: 'emptyProject',
+        img: underConstruction,
+        alt: 'Construction Area',
+        header: 'OOPS!',
+        location: 'Still Under Construction',
+        toggleActive: false
+    }
 ];
 
 export default projectsData;

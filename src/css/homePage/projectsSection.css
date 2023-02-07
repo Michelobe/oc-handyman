@@ -4,6 +4,10 @@
 .projectsSection {
     margin-bottom: 6rem;
     overflow: hidden;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* NAVBAR */
@@ -88,12 +92,6 @@
 
 
 /* TILES */
-.projectsSection {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-}
 .projectsSection .projectTiles {
     display: flex;
     flex-flow: row wrap;
@@ -239,9 +237,6 @@
     .projectsSection .projectTiles .projectTile .tileHover{
         transform: translateY(-16.4%);
         opacity: 1;
-    }
-    .projectsSection{
-        padding-bottom: 12rem;
     }
 }
 @media only screen and (max-width: 668px){
