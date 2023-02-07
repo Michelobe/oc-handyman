@@ -61,12 +61,12 @@ const ProjectsSection = () => {
         }
     };
     var electricalOption = () => {
-        // setElectrical(true);
-        // setCabinetry(false);
-        // setPainting(false);
-        // setPlumbing(false);
-        // setFlooring(false);
-        // setMaintenance(false);
+        setElectrical(true);
+        setCabinetry(false);
+        setPainting(false);
+        setPlumbing(false);
+        setFlooring(false);
+        setMaintenance(false);
 
         console.log(projectArray);
         for(var i=0;i < projectArray.length;i++){
