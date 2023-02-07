@@ -5,46 +5,16 @@ import projectsData from './projectsInfo.js';
 const ProjectsSection = () => {
     const projectInformation = useState(projectsData);
     var projectArray = projectInformation[0];
-    console.log(projectArray);
 
     // SET STATE FOR BUTTONS
     var [electrical, setElectrical] = useState(true);
-    console.log(electrical);  //ONLY TO REMOVE WARNING
     var [cabinetry, setCabinetry] = useState(true);
-    console.log(cabinetry);  //ONLY TO REMOVE WARNING
     var [painting, setPainting] = useState(true);
-    console.log(painting);  //ONLY TO REMOVE WARNING
     var [plumbing, setPlumbing] = useState(true);
-    console.log(plumbing);  //ONLY TO REMOVE WARNING
     var [flooring, setFlooring] = useState(true);
-    console.log(flooring);  //ONLY TO REMOVE WARNING
     var [maintenance, setMaintenance] = useState(true);
-    console.log(maintenance);  //ONLY TO REMOVE WARNING
-    var [emptyProject, setEmptyProject] = useState(false);
-    console.log(emptyProject);  //ONLY TO REMOVE WARNING
+    console.log(electrical,cabinetry,painting,plumbing,flooring,maintenance);
 
-
-    function displayProjects(){
-        return (projectArray.map((project, key) => {
-            return(
-                <div className={`projectTile ${project.toggleActive ? '' : 'nonActive'}`} key={key}>
-                    <div className='tilePhoto'>
-                        <img src={project.img} alt={project.alt} />
-                    </div>
-                    <div className='tileHover'>
-                        <div className="tileHoverPopup">
-                            <div className="tileShade"></div>
-                            <div className='tileContent'>
-                                <h6>{project.header}</h6>
-                                <h2>{project.location}</h2>
-                                <div className='tileBottomBorder'></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            );
-        }));
-    }
 
 
     var toggleAll = () => {
@@ -54,19 +24,18 @@ const ProjectsSection = () => {
         setPlumbing(true);
         setFlooring(true);
         setMaintenance(true);
-        setEmptyProject(false);
 
         for(var i=0;i < projectArray.length;i++){
             projectArray[i].toggleActive=true;
         }
     };
     var electricalOption = () => {
-        // setElectrical(true);
-        // setCabinetry(false);
-        // setPainting(false);
-        // setPlumbing(false);
-        // setFlooring(false);
-        // setMaintenance(false);
+        setElectrical(true);
+        setCabinetry(false);
+        setPainting(false);
+        setPlumbing(false);
+        setFlooring(false);
+        setMaintenance(false);
 
         console.log(projectArray);
         for(var i=0;i < projectArray.length;i++){
@@ -218,7 +187,96 @@ const ProjectsSection = () => {
 
 
                 <div className={`projectTiles`} >
-                    {displayProjects()}
+                    <div className={`projectTile ${projectArray[0].toggleActive ? '' : 'nonActive'}`}>
+                        <div className='tilePhoto'>
+                            <img src={projectArray[0].img} alt={projectArray[0].alt} />
+                        </div>
+                        <div className='tileHover'>
+                            <div className="tileHoverPopup">
+                                <div className="tileShade"></div>
+                                <div className='tileContent'>
+                                    <h6>{projectArray[0].header}</h6>
+                                    <h2>{projectArray[0].location}</h2>
+                                    <div className='tileBottomBorder'></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={`projectTile ${projectArray[1].toggleActive ? '' : 'nonActive'}`}>
+                        <div className='tilePhoto'>
+                            <img src={projectArray[1].img} alt={projectArray[1].alt} />
+                        </div>
+                        <div className='tileHover'>
+                            <div className="tileHoverPopup">
+                                <div className="tileShade"></div>
+                                <div className='tileContent'>
+                                    <h6>{projectArray[1].header}</h6>
+                                    <h2>{projectArray[1].location}</h2>
+                                    <div className='tileBottomBorder'></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={`projectTile ${projectArray[2].toggleActive ? '' : 'nonActive'}`}>
+                        <div className='tilePhoto'>
+                            <img src={projectArray[2].img} alt={projectArray[2].alt} />
+                        </div>
+                        <div className='tileHover'>
+                            <div className="tileHoverPopup">
+                                <div className="tileShade"></div>
+                                <div className='tileContent'>
+                                    <h6>{projectArray[2].header}</h6>
+                                    <h2>{projectArray[2].location}</h2>
+                                    <div className='tileBottomBorder'></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={`projectTile ${projectArray[3].toggleActive ? '' : 'nonActive'}`}>
+                        <div className='tilePhoto'>
+                            <img src={projectArray[3].img} alt={projectArray[3].alt} />
+                        </div>
+                        <div className='tileHover'>
+                            <div className="tileHoverPopup">
+                                <div className="tileShade"></div>
+                                <div className='tileContent'>
+                                    <h6>{projectArray[3].header}</h6>
+                                    <h2>{projectArray[3].location}</h2>
+                                    <div className='tileBottomBorder'></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={`projectTile ${projectArray[4].toggleActive ? '' : 'nonActive'}`}>
+                        <div className='tilePhoto'>
+                            <img src={projectArray[4].img} alt={projectArray[4].alt} />
+                        </div>
+                        <div className='tileHover'>
+                            <div className="tileHoverPopup">
+                                <div className="tileShade"></div>
+                                <div className='tileContent'>
+                                    <h6>{projectArray[4].header}</h6>
+                                    <h2>{projectArray[4].location}</h2>
+                                    <div className='tileBottomBorder'></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={`projectTile ${projectArray[5].toggleActive ? '' : 'nonActive'}`}>
+                        <div className='tilePhoto'>
+                            <img src={projectArray[5].img} alt={projectArray[5].alt} />
+                        </div>
+                        <div className='tileHover'>
+                            <div className="tileHoverPopup">
+                                <div className="tileShade"></div>
+                                <div className='tileContent'>
+                                    <h6>{projectArray[5].header}</h6>
+                                    <h2>{projectArray[5].location}</h2>
+                                    <div className='tileBottomBorder'></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
 
