@@ -14,14 +14,7 @@ import underConstruction from '../../../../images/project-section/under-construc
 
 var projectsData = () => [
     {
-        type: 'electrical',
-        img: electrical,
-        alt: 'Eletrical Wires',
-        header: 'Electrical',
-        location: 'Portland, OR',
-        toggleActive: true
-    },
-    {
+        id: 1,
         type: 'cabinetry',
         img: cabinetry,
         alt: 'Kitchen Cabinets',
@@ -30,6 +23,7 @@ var projectsData = () => [
         toggleActive: true
     },
     {
+        id: 2,
         type: 'plumbing',
         img: plumbing,
         alt: 'Eletrical Wires',
@@ -38,6 +32,16 @@ var projectsData = () => [
         toggleActive: true
     },
     {
+        id: 3,
+        type: 'electrical',
+        img: electrical,
+        alt: 'Eletrical Wires',
+        header: 'Electrical',
+        location: 'Portland, OR',
+        toggleActive: true
+    },
+    {
+        id: 4,
         type: 'plumbing',
         img: sink,
         alt: 'Kitchen Sink',
@@ -46,6 +50,7 @@ var projectsData = () => [
         toggleActive: true
     },
     {
+        id: 5,
         type: 'flooring',
         img: tile,
         alt: 'Flooring',
@@ -54,6 +59,7 @@ var projectsData = () => [
         toggleActive: true
     },
     {
+        id: 6,
         type: 'flooring',
         img: flooring,
         alt: 'Laminate Flooring',
@@ -62,6 +68,7 @@ var projectsData = () => [
         toggleActive: true
     },
     {
+        id: 7,
         type: 'emptyProject',
         img: underConstruction,
         alt: 'Construction Area',

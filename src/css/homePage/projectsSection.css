@@ -79,6 +79,7 @@
     border: none;
     background-color: transparent;
     padding: .5rem 1rem;
+    margin: 1px;
     border-radius: 5px;
     font-size: 1rem;
     font-weight: bold;
@@ -87,7 +88,6 @@
 .projectsSection .projectsNav .projectsNavBtns .navBtns .projectButton:focus {
     background: #D90D43;
     color: white;
-    border: 1px solid white;
 }
 
 
@@ -135,7 +135,11 @@
     opacity: 0;
 }
 .projectsSection .projectTiles .projectTile .tileHover:hover{
-    transform: translateY(-16.4%);
+    transform: translateY(-17%);
+    opacity: 1;
+}
+.projectsSection .projectTiles .projectTile .tileHover.underConst{
+    transform: translateY(-17%);
     opacity: 1;
 }
 .projectsSection .projectTiles .projectTile .tileHover .tileHoverPopup{
@@ -235,7 +239,7 @@
         width: 48%;
     }
     .projectsSection .projectTiles .projectTile .tileHover{
-        transform: translateY(-16.4%);
+        transform: translateY(-17%);
         opacity: 1;
     }
 }

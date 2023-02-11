@@ -5,7 +5,9 @@ const Footer = () => {
     return (
         <footer className='footerSection'>
             <div className='footerCta'>
-                <img src={yelp} alt="Yelp Review" />
+                <a href="https://www.yelp.com/biz/ie-1-handyman-lake-elsinore">
+                    <img src={yelp} alt="Yelp Review" />
+                </a>
             </div>
             <div className='container'>
                 <div className='footerContent'>
