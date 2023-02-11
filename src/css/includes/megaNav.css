@@ -15,7 +15,8 @@
     padding: .25rem 0;
 }
 .headerSection .upperMegaNav > p{
-    border-right: 1px solid #04aa6d63;
+    border-right: 1px solid #ffffff3c;
+    padding-right: 1rem;
 }
 .headerSection .upperMegaNav > a{
     padding-left: 1rem;
@@ -52,10 +53,15 @@
     font-size: 1.5rem;
 }
 .headerSection .lowerMegaNav .lowerNavContainer .menuContainer .menuNav .menuLink{
-    padding-left: 1rem;
+    margin-left: 1rem;
+    padding: .1rem .5rem;
+}
+.headerSection .lowerMegaNav .lowerNavContainer .menuContainer .menuNav .menuLink:hover{
+    background: #D90D43;
+    color: white;
 }
 
-@media only screen and (max-width: 660px){
+@media only screen and (max-width: 710px){
     .headerSection .lowerMegaNav .lowerNavContainer .menuContainer{
         display: none;
     }

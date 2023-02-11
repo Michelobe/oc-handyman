@@ -16,6 +16,11 @@
 @import './homePage/projectsSection.css';
 @import './homePage/aboutTeam.css';
 /* PAGES */
+@import './pages/about.css';
+@import './pages/experience.css';
+@import './pages/projects.css';
+@import './pages/services.css';
+@import './pages/team/team.css';
 
 body{
     font-family: 'Play', sans-serif;

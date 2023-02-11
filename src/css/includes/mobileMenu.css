@@ -19,7 +19,7 @@
     color: white;
     top: 0;
     z-index: 150;
-    width: 50vw;
+    width: 50.25vw;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -31,12 +31,12 @@
     cursor: pointer;
 }
 .mobileMenu .leftMenu{
-    left: 110vw;
+    left: 150vw;
     transition: all .7s ease-in-out;
     display: none;
 }
 .mobileMenu .rightMenu{
-    left: 110vw;
+    left: 150vw;
     transition: all .7s ease-in-out;
     display: none;
 }
@@ -58,7 +58,7 @@
     left: 50vw;
 }
 
-@media only screen and (max-width: 660px) {
+@media only screen and (max-width: 710px) {
     .mobileMenu{
         position: initial;
     }

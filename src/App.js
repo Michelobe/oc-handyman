@@ -15,29 +15,18 @@ import './css/App.css';
 function App() {
     return (
         <BrowserRouter>
-
             <div className="App">
                 <MegaNav />
                 
                 <Routes>
                     <Route path = '/' element={<HomePage />} />
-                </Routes>
-
-                <Routes>
-                    <Route path = '/about' element={<AboutPage />} title="About" />
-                </Routes>
-                
-                <Routes>
-                    <Route path = '/experience' element={<Experience />} title="Experience" />
-                </Routes>
-
-                <Routes>
-                    <Route path = '/services' element={<Services />} title="Services" />
+                    <Route path = 'about' element={<AboutPage />} title="About" />
+                    <Route path = 'experience' element={<Experience />} title="Experience" />
+                    <Route path = 'services' element={<Services />} title="Services" />
                 </Routes>
 
                 <Footer />
             </div>
-
         </BrowserRouter>
     );
 }

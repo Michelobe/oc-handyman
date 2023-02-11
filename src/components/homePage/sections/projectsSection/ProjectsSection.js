@@ -31,7 +31,7 @@ const ProjectsSection = () => {
                     <div className='tilePhoto'>
                         <img src={project.img} alt={project.alt} />
                     </div>
-                    <div className='tileHover'>
+                    <div className={`tileHover ${project.type==='emptyProject' ? 'underConst' : ''}`}>
                         <div className="tileHoverPopup">
                             <div className="tileShade"></div>
                             <div className='tileContent'>
@@ -56,7 +56,7 @@ const ProjectsSection = () => {
         setMaintenance(true);
         setEmptyProject(false);
 
-        for(var i=0;i < projectArray.length;i++){
+        for(var i=0;i < projectArray.length-1;i++){
             projectArray[i].toggleActive=true;
         }
     };
@@ -106,7 +106,7 @@ const ProjectsSection = () => {
 
         console.log(projectArray);
         for(var i=0;i < projectArray.length;i++){
-            if(projectArray[i].type==='painting'){
+            if(projectArray[i].type==='painting' || projectArray[i].type==='emptyProject'){
                 projectArray[i].toggleActive=true;
             }
             else{
@@ -157,10 +157,11 @@ const ProjectsSection = () => {
         setPlumbing(false);
         setFlooring(false);
         setMaintenance(true);
+        setEmptyProject(true);
 
         console.log(projectArray);
         for(var i=0;i < projectArray.length;i++){
-            if(projectArray[i].type==='maintenance'){
+            if(projectArray[i].type==='maintenance' || projectArray[i].type==='emptyProject'){
                 projectArray[i].toggleActive=true;
             }
             else{
