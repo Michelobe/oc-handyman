@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function Services() {
+function ProjectsPage() {
     return (
         <div>
             <h1>OC Local Handyman completed projects</h1>
@@ -9,4 +9,4 @@ function Services() {
     );
 }
 
-export default Services;
+export default ProjectsPage;

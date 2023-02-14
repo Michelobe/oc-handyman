@@ -5,6 +5,7 @@
     background-color: #222222;
     height:34rem;
     position: relative;
+    margin-bottom: 24rem;
 }
 .aboutTeam .sectionDownshift{
     position: relative;
@@ -56,6 +57,7 @@
     display: flex;
     flex-flow: column;
     align-items: center;
+    text-decoration: none;
 }
 .aboutTeam .teamIntro .teammate .teamPhoto{
     width: 100%;

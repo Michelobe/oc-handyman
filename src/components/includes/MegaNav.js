@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import MobileMenu from './MobileMenu.js';
 
 const MegaNav = () => {
@@ -12,8 +13,9 @@ const MegaNav = () => {
             </div>
             <div className="lowerMegaNav">
                 <div className="lowerNavContainer">
-
-                    <p className="logo">OCLH</p>
+                    <Link to="/" relative="path" className="logo">
+                        <p>OCLH</p>
+                    </Link>
                     <div className="menuContainer">
                         <ul className="menuNav">
                             <li className="menuLink">About</li>
