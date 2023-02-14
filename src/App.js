@@ -7,8 +7,10 @@ import Footer from './components/includes/Footer.js';
 import HomePage from './components/homePage/HomePage.js';
 // PAGES
 import AboutPage from './components/pages/AboutPage.js';
-import Experience from './components/pages/Experience.js';
-import Services from './components/pages/Services.js';
+import ExperiencePage from './components/pages/ExperiencePage.js';
+import ServicesPage from './components/pages/ServicesPage.js';
+import ProjectsPage from './components/pages/ProjectsPage.js';
+import TeamPage from './components/pages/team/TeamPage.js';
 // CSSnpm starts
 import './css/App.css';
 
@@ -21,8 +23,10 @@ function App() {
                 <Routes>
                     <Route path = '/' element={<HomePage />} />
                     <Route path = 'about' element={<AboutPage />} title="About" />
-                    <Route path = 'experience' element={<Experience />} title="Experience" />
-                    <Route path = 'services' element={<Services />} title="Services" />
+                    <Route path = 'experience' element={<ExperiencePage />} title="Experience" />
+                    <Route path = 'services' element={<ServicesPage />} title="Services" />
+                    <Route path = 'projects' element={<ProjectsPage />} title="Projects" />
+                    <Route path = 'team' element={<TeamPage />} title="Team" />
                 </Routes>
 
                 <Footer />

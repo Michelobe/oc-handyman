@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import Handyman from '../../../images/handyman-placeholder.png';
 
 const AboutTeam = () => {
@@ -18,16 +19,21 @@ const AboutTeam = () => {
                         </div>
                     </header>
                     <div className='teamIntro'>
-                        <div className='teammate'>
+                        <Link to="/team" relative="path" className='teammate'>
                             <div className='teamPhoto'><img src={Handyman} alt="Handyman" /></div>
                             <h2>Steve De La Riva</h2>
                             <h6>Handyman</h6>
-                        </div>
-                        <div className='teammate'>
+                        </Link>
+                        <Link to="/team" relative="path" className='teammate'>
                             <div className='teamPhoto'><img src={Handyman} alt="Handyman" /></div>
                             <h2>Brian Welsh</h2>
                             <h6>Handyman</h6>
-                        </div>
+                        </Link>
+                        <Link to="/team" relative="path" className='teammate'>
+                            <div className='teamPhoto'><img src={Handyman} alt="Handyman" /></div>
+                            <h2>Mario Puccio</h2>
+                            <h6>Handyman</h6>
+                        </Link>
                     </div>
                 </div>
             </div>
