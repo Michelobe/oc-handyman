@@ -14,7 +14,7 @@ function TeamPage() {
                     <h2>Meet our Team</h2>
                 </div>
             </div>
-            <div className='container teamIntro'>
+            <div className='teamIntro'>
                 <div className='teammate'>
                     <div className='teamPhoto'><img src={Handyman} alt="Handyman" /></div>
                     <h2>Steve De La Riva</h2>

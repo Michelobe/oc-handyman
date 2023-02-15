@@ -1,4 +1,6 @@
 
+
+/* HEADER */
 .teamPage .jumboTeam {
     background: url("../../../images/pages/multi-tool-and-pocket-knives.jpeg") center center no-repeat;
     width: 100%;
@@ -47,7 +49,7 @@
 /* TEAM CONTENT */
 .teamPage .teamIntro{
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: center;
     height: 35rem;
     z-index: 6;
@@ -57,6 +59,7 @@
 .teamPage .teamIntro .teammate{
     margin: 0 .5rem;
     width: 355px;
+    max-height: 560px;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -80,10 +83,19 @@
 }
 
 /* BREAKPOINTS */
+@media only screen and (max-width: 1130px){
+    .teamPage .teamIntro {
+        height: 69rem;
+    }
+    /* .teamPage .teamIntro .teammate {
+        height: 38rem;
+        margin: 0;
+    } */
+}
 @media only screen and (max-width: 800px){
     .teamPage .teamIntro {
         flex-flow: column;
-        height: 80rem;
+        height: 105rem;
         align-items: center;
     }
     .teamPage .teamIntro .teammate {
