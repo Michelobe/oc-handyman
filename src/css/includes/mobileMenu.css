@@ -32,12 +32,12 @@
 }
 .mobileMenu .leftMenu{
     left: 150vw;
-    transition: all .7s ease-in-out;
+    transition: all .5s ease-in-out;
     display: none;
 }
 .mobileMenu .rightMenu{
     left: 150vw;
-    transition: all .7s ease-in-out;
+    transition: all .5s ease-in-out;
     display: none;
 }
 .mobileMenu .rightMenu a{

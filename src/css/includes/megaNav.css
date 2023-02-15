@@ -53,6 +53,10 @@
     flex-flow: row;
     font-size: 1.5rem;
 }
+.headerSection .lowerMegaNav .lowerNavContainer .menuContainer .menuNav > a{
+    text-decoration: none;
+    color: black;
+}
 .headerSection .lowerMegaNav .lowerNavContainer .menuContainer .menuNav .menuLink{
     margin-left: 1rem;
     padding: .1rem .5rem;
