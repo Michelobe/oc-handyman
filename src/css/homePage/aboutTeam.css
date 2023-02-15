@@ -3,9 +3,9 @@
 
 .aboutTeam {
     background-color: #222222;
-    height:34rem;
     position: relative;
-    margin-bottom: 24rem;
+    height: 35rem;
+    margin-bottom: 25rem;
 }
 .aboutTeam .sectionDownshift{
     position: relative;
@@ -15,7 +15,7 @@
 /* TEAM HEADER */
 .aboutTeam .aboutHeader {
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
     color: white;
@@ -47,13 +47,13 @@
 /* TEAM CONTENT */
 .aboutTeam .teamIntro{
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: center;
-    height: 35rem;
 }
 .aboutTeam .teamIntro .teammate{
     margin: 0 .5rem;
     width: 355px;
+    max-height: 540px;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -79,19 +79,18 @@
 
 /* BREAKPOINTS */
 
-@media only screen and (max-width: 930px){
-    .aboutTeam .aboutHeader {
-        flex-flow: column;
-        align-items: flex-start;
+@media only screen and (max-width: 1130px){
+    .aboutTeam {
+        height: 70rem;
     }
 }
 @media only screen and (max-width: 800px){
     .aboutTeam {
-        height: 81rem;
+        height: 102rem;
     }
     .aboutTeam .teamIntro {
         flex-flow: column;
-        height: 80rem;
+        height: 99rem;
         align-items: center;
     }
     .aboutTeam .teamIntro .teammate {
