@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import Handyman from '../../../images/handyman-placeholder.png';
 
 
@@ -6,6 +7,13 @@ function TeamPage() {
     return (
         <section className='teamPage'>
             <div className='jumboTeam'>
+                <div className="container breadCrumbs">
+                    <Link to="/" relative="path">
+                        <p>Home</p>
+                    </Link>
+                    <i className="fas fa-chevron-right"></i>
+                    <p>Team</p>
+                </div>
                 <div className='coverContainer'>
                     <div className='lightCover'></div>
                 </div>

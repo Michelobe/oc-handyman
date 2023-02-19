@@ -35,11 +35,9 @@ const MegaNav = () => {
                             </Link>
                         </ul>
                     </div>
-                    <MobileMenu />
-
-
                 </div>
             </div>
+            <MobileMenu />
         </section>
     )
 };
