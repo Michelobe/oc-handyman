@@ -7,14 +7,18 @@
     right: 1.2rem;
     top: 2rem;
 }
-.mobileMenu .menuBtn{
+.mobileMenu.fixed{
     position: fixed;
+}
+
+.mobileMenu .menuBtn{
+    position: sticky;
     display: none;
     padding: .1rem .3rem;
     z-index: 1000;
-} 
-/* Icon 4 */
+}
 
+/* Icon 4 */
 .mobileMenu .menuBtn #nav-icon4 {
     width: 60px;
     height: 45px;
@@ -80,13 +84,11 @@
     transform: rotate(45deg);
     top: -3px;
     left: 8px;
-    background: #D90D43;
 }
 
 .mobileMenu .menuBtn #nav-icon4.open span:nth-child(2) {
     width: 0%;
     opacity: 0;
-    background: #D90D43;
 }
 
 .mobileMenu .menuBtn #nav-icon4.open span:nth-child(3) {
@@ -96,7 +98,6 @@
     transform: rotate(-45deg);
     top: 39px;
     left: 8px;
-    background: #D90D43;
 }
 
 
@@ -110,15 +111,51 @@
     top: 0;
     z-index: 5;
     width: 50.25vw;
+    min-height: 100vh;
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
 }
-.mobileMenu .halfMenu p{
-    height: 50vh;
-    padding: 5rem 3rem;
-    cursor: pointer;
+.mobileMenu .halfMenu .menuPhone{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    height: 33px;
+    width: 100vw;
+    background: #222222;
+    color: white;
+    font-size: 1.5rem;
+}
+.mobileMenu .halfMenu .menuLogo{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100vw;
+    background: white;
+    color: #D90D43;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.mobileMenu .halfMenu .menuLink{
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin: 1rem 0;
+}
+.mobileMenu .halfMenu .menuLink > p{
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+}
+.mobileMenu .halfMenu .menuLink:hover{
+    color: #D90D43;
 }
 .mobileMenu .leftMenu{
     left: 150vw;
@@ -148,6 +185,8 @@
     left: 50vw;
 }
 
+
+/* MEDIA QUERIES */
 @media only screen and (max-width: 710px) {
     .mobileMenu{
         position: absolute;
@@ -163,7 +202,11 @@
     display: initial;
    }
 }
-
-
+@media only screen and (max-width: 500px) {
+    .mobileMenu .halfMenu .menuLogo{
+        width: 82vw;
+        text-align: center;
+    }
+}
 
   
