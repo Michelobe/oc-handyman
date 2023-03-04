@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer className='footerSection'>
             <div className='footerCta'>
-                <a href="https://www.yelp.com/biz/ie-1-handyman-lake-elsinore">
+                <a href="https://www.yelp.com/biz/ie-1-handyman-lake-elsinore" target="_blank" rel="noreferrer">
                     <img src={yelp} alt="Yelp Review" />
                 </a>
             </div>

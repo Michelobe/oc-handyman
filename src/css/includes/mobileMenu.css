@@ -5,7 +5,7 @@
     position: absolute;
     z-index: 1000;
     right: 1.2rem;
-    top: 2rem;
+    top: 2.5rem;
 }
 .mobileMenu.fixed{
     position: fixed;
@@ -20,8 +20,8 @@
 
 /* Icon 4 */
 .mobileMenu .menuBtn #nav-icon4 {
-    width: 60px;
-    height: 45px;
+    width: 49px;
+    height: 34px;
     position: relative;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -37,7 +37,7 @@
 .mobileMenu .menuBtn #nav-icon4 span {
     display: block;
     position: absolute;
-    height: 9px;
+    height: 6px;
     width: 100%;
     background: black;
     border-radius: 9px;
@@ -62,7 +62,7 @@
 }
 
 .mobileMenu .menuBtn #nav-icon4 span:nth-child(2) {
-    top: 18px;
+    top: 13px;
     -webkit-transform-origin: left center;
     -moz-transform-origin: left center;
     -o-transform-origin: left center;
@@ -70,7 +70,7 @@
 }
 
 .mobileMenu .menuBtn #nav-icon4 span:nth-child(3) {
-    top: 36px;
+    top: 26px;
     -webkit-transform-origin: left center;
     -moz-transform-origin: left center;
     -o-transform-origin: left center;
@@ -96,7 +96,7 @@
     -moz-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    top: 39px;
+    top: 32px;
     left: 8px;
 }
 
