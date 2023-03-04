@@ -8,6 +8,7 @@
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 /* NAVBAR */
@@ -33,11 +34,16 @@
     padding: 0.25rem 0 0.5rem 1.25rem;
     font-weight: bold;
 }
+
+
 /* MOBILE NAV */
 .projectsSection .projectsNav .mobileNav{
     display: none;
     opacity: 0;
-    position: relative;
+    position: absolute;
+    top: 2rem;
+    right: 5rem;
+    z-index: 6;
 }
 .projectsSection .projectsNav .mobileNav .navDrop{
     font-size: 2rem;
@@ -53,7 +59,7 @@
     background: white;
     z-index: 6;
 }
-.projectsSection .projectsNav .mobileNav .navDrop:hover{
+.projectsSection .projectsNav .mobileNav .navDrop.menuActive{
     height: 247.63px;
 }
 .projectsSection .projectsNav .mobileNav .navDrop > li:hover,
@@ -207,10 +213,8 @@
         width: 32%;
     }
     .projectsSection .projectsNav .mobileNav{
-        position: relative;
         display: initial;
         opacity: 1;
-        margin-bottom: 2rem;
     }
     .projectsSection .projectsNav .projectsNavBtns{
         position: absolute;
@@ -218,7 +222,6 @@
         opacity: 0;
     }
 }
-
 @media only screen and (max-width: 1165px){
     .projectsSection .projectTiles .projectTile {
         width: 38%;
@@ -235,6 +238,9 @@
     }
 }
 @media only screen and (max-width: 950px){
+    .projectsSection .projectsNav .mobileNav{
+        right: 6%;
+    }
     .projectsSection .projectTiles .projectTile {
         width: 48%;
     }
@@ -243,9 +249,27 @@
         opacity: 1;
     }
 }
+@media only screen and (max-width: 845px){
+    .projectsSection .projectsNav .mobileNav{
+        right: 4%;
+    }
+}
+@media only screen and (max-width: 716px){
+    .projectsSection .projectsNav .projectsHeader {
+        margin-bottom: 6rem;
+    }
+    .projectsSection .projectsNav .mobileNav{
+        top: 7rem;
+        left: 69%;
+        right: auto;
+    }
+}
 @media only screen and (max-width: 668px){
     .projectsSection .projectsNav {
         flex-flow: column;
+    }
+    .projectsSection .projectsNav .mobileNav{
+        left: 29.5%;
     }
     .projectsSection .projectsNav .mobileNav .navDrop{
         position: initial;
@@ -256,9 +280,24 @@
         width: 71%;
     }
 }
+@media only screen and (max-width: 627px){
+    .projectsSection .projectsNav .mobileNav{
+        left: 28.5%;
+    }
+}
+@media only screen and (max-width: 585px){
+    .projectsSection .projectsNav .mobileNav{
+        left: 27.5%;
+    }
+}
 @media only screen and (max-width: 550px){
     .projectsSection .projectTiles .projectTile {
         width: 81%;
+    }
+}
+@media only screen and (max-width: 528px){
+    .projectsSection .projectsNav .mobileNav{
+        left: 24.5%;
     }
 }
 @media only screen and (max-width: 500px){
@@ -267,12 +306,39 @@
         margin: .3rem 0;
     }
 }
+@media only screen and (max-width: 468px){
+    .projectsSection .projectsNav .mobileNav{
+        left: 23.5%;
+    }
+}
 @media only screen and (max-width: 450px){
     .projectsSection{
         margin: 11rem 0 4rem 0;
     }
+}
+@media only screen and (max-width: 445px){
     .projectsSection .projectsNav .mobileNav{
-        position: relative;
+        left: 21.5%;
+    }
+}
+@media only screen and (max-width: 425px){
+    .projectsSection .projectsNav .mobileNav{
+        top: 9.5rem;
+    }
+}
+@media only screen and (max-width: 413px){
+    .projectsSection .projectsNav .mobileNav{
+        left: 20.5%;
+    }
+}
+@media only screen and (max-width: 413px){
+    .projectsSection .projectsNav .mobileNav{
+        left: 19%;
+    }
+}
+@media only screen and (max-width: 375px){
+    .projectsSection .projectsNav .mobileNav{
+        left: 17.5%;
     }
 }
 

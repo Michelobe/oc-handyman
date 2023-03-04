@@ -5,6 +5,7 @@ import projectsData from './projectsInfo.js';
 const ProjectsSection = () => {
     const projectInformation = useState(projectsData);
     var projectArray = projectInformation[0];
+    var [isActive,setActive] = useState(false);
     console.log(projectArray);
 
     // SET STATE FOR BUTTONS
@@ -47,6 +48,11 @@ const ProjectsSection = () => {
     }
 
 
+    function clickActive() {
+        setActive(!isActive);
+    }
+
+
     var toggleAll = () => {
         setElectrical(true);
         setCabinetry(true);
@@ -59,6 +65,9 @@ const ProjectsSection = () => {
         for(var i=0;i < projectArray.length-1;i++){
             projectArray[i].toggleActive=true;
         }
+        
+        //closes mobile nav selector
+        clickActive()
     };
     var electricalOption = () => {
         setElectrical(true);
@@ -77,6 +86,9 @@ const ProjectsSection = () => {
                 projectArray[i].toggleActive=false;
             }
         }
+        
+        //closes mobile nav selector
+        clickActive()
     };
     var cabinetryOption = () => {
         setElectrical(false);
@@ -95,6 +107,9 @@ const ProjectsSection = () => {
                 projectArray[i].toggleActive=false;
             }
         }
+        
+        //closes mobile nav selector
+        clickActive()
     };
     var paintingOption = () => {
         setElectrical(false);
@@ -113,6 +128,9 @@ const ProjectsSection = () => {
                 projectArray[i].toggleActive=false;
             }
         }
+        
+        //closes mobile nav selector
+        clickActive()
     };
     var plumbingOption = () => {
         setElectrical(false);
@@ -131,6 +149,9 @@ const ProjectsSection = () => {
                 projectArray[i].toggleActive=false;
             }
         }
+        
+        //closes mobile nav selector
+        clickActive()
     };
     var flooringOption = () => {
         setElectrical(false);
@@ -149,6 +170,9 @@ const ProjectsSection = () => {
                 projectArray[i].toggleActive=false;
             }
         }
+        
+        //closes mobile nav selector
+        clickActive()
     };
     var maintenanceOption = () => {
         setElectrical(false);
@@ -168,6 +192,9 @@ const ProjectsSection = () => {
                 projectArray[i].toggleActive=false;
             }
         }
+
+        //closes mobile nav selector
+        clickActive()
     };
 
     return (
@@ -178,9 +205,13 @@ const ProjectsSection = () => {
                         <h6>OC Local Handyman's Latest</h6>
                         <h2>Recently Completed</h2>
                     </header>
-                    <nav className='mobileNav'>
-                        <ul className='navDrop' name="job" id="job">
-                            <li className='dropOption' value="All" type='button'>Select</li>
+
+                    
+
+
+                    <nav className={`mobileNav`}>
+                        <ul className={`navDrop ${isActive ? 'menuActive' : ''}`} name="job" id="job">
+                            <li className='dropOption' value="All" type='button' onClick={clickActive}>Select</li>
                             <li className='dropOption' value="All" type='button' onClick={toggleAll}>All</li>
                             <li className='dropOption' value="Electrical" type='button' onClick={electricalOption}>Electrical</li>
                             <li className='dropOption' value="Cabinetry" type='button' onClick={cabinetryOption}>Cabinetry</li>
