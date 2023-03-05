@@ -6,7 +6,6 @@ const ProjectsSection = () => {
     const projectInformation = useState(projectsData);
     var projectArray = projectInformation[0];
     var [isActive,setActive] = useState(false);
-    console.log(projectArray);
 
     // SET STATE FOR BUTTONS
     var [electrical, setElectrical] = useState(true);
@@ -24,9 +23,15 @@ const ProjectsSection = () => {
     var [emptyProject, setEmptyProject] = useState(false);
     console.log(emptyProject);  //ONLY TO REMOVE WARNING
     
-    // THIS IS TO RESET THE DROPDOWN SELECTOR POSITION TO NORMAL BY
-    // HAVING returnSelector() RETURN AN EMPTY STRING
+    // THIS SELETOR VARIABLE IS TO ENSURE WHEN PAGE LOADS, THAT THE
+    // SELECTOR WILL VISIBLY SHOW "SELECT", OTHERWISE THE FIRST
+    // "TRUE" IS ELECTRICAL, AND ELECTRICAL WILL SHOW
     var [selector, setSelector] = useState(true);
+
+    // THIS SELECTOR IS TO RESET SELECTOR POSITION WHEN CLICKING SELECTOR A
+    // SECOND TIME, OR ELSE THE SELECTOR KEEPS MOVING UP UNTIL ONLY
+    // MAINTENANCE CAN BE SELECTED
+    var [selectorCounter, setSelectorCounter] = useState(true);
 
 
     function displayProjects(){
@@ -80,9 +85,16 @@ const ProjectsSection = () => {
         }
     }
 
-    // function resetSelector(){
-    //     setSelector(true);
-    // }
+    function resetSelector(){
+        if(selectorCounter===1){
+            setSelectorCounter(2);
+            console.log(selectorCounter);
+        }
+        else{
+            setSelectorCounter(1);
+            console.log(selectorCounter);
+        }
+    }
 
 
     var toggleAll = () => {
@@ -249,7 +261,7 @@ const ProjectsSection = () => {
 
 
                     <nav className={`mobileNav ${isActive ? 'menuActive' : ''}`}>
-                        <ul className={`navDrop ${returnSelector()}`} name="job" id="job">
+                        <ul className={`navDrop ${selectorCounter===1 ? '' : returnSelector()}`} name="job" id="job" onClick={resetSelector}>
                             <li className='dropOption' value="All" type='button' onClick={clickActive}>Select</li>
                             <li className='dropOption' value="All" type='button' onClick={toggleAll}>All</li>
                             <li className='dropOption' value="Electrical" type='button' onClick={electricalOption}>Electrical</li>
