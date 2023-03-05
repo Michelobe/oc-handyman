@@ -23,6 +23,10 @@ const ProjectsSection = () => {
     console.log(maintenance);  //ONLY TO REMOVE WARNING
     var [emptyProject, setEmptyProject] = useState(false);
     console.log(emptyProject);  //ONLY TO REMOVE WARNING
+    
+    // THIS IS TO RESET THE DROPDOWN SELECTOR POSITION TO NORMAL BY
+    // HAVING returnSelector() RETURN AN EMPTY STRING
+    var [selector, setSelector] = useState(true);
 
 
     function displayProjects(){
@@ -51,6 +55,34 @@ const ProjectsSection = () => {
     function clickActive() {
         setActive(!isActive);
     }
+    
+    function returnSelector(){
+        if(selector===true){
+            return '';
+        }
+        else if(electrical===true){
+            return 'electrical';
+        }
+        else if(cabinetry===true){
+            return 'cabinetry';
+        }
+        else if(painting===true){
+            return 'painting';
+        }
+        else if(plumbing===true){
+            return 'plumbing';
+        }
+        else if(flooring===true){
+            return 'flooring';
+        }
+        else if(maintenance===true){
+            return 'maintenance';
+        }
+    }
+
+    // function resetSelector(){
+    //     setSelector(true);
+    // }
 
 
     var toggleAll = () => {
@@ -61,6 +93,7 @@ const ProjectsSection = () => {
         setFlooring(true);
         setMaintenance(true);
         setEmptyProject(false);
+        setSelector(true);
 
         for(var i=0;i < projectArray.length-1;i++){
             projectArray[i].toggleActive=true;
@@ -76,6 +109,7 @@ const ProjectsSection = () => {
         setPlumbing(false);
         setFlooring(false);
         setMaintenance(false);
+        setSelector(false);
 
         console.log(projectArray);
         for(var i=0;i < projectArray.length;i++){
@@ -97,6 +131,7 @@ const ProjectsSection = () => {
         setPlumbing(false);
         setFlooring(false);
         setMaintenance(false);
+        setSelector(false);
 
         console.log(projectArray);
         for(var i=0;i < projectArray.length;i++){
@@ -118,6 +153,7 @@ const ProjectsSection = () => {
         setPlumbing(false);
         setFlooring(false);
         setMaintenance(false);
+        setSelector(false);
 
         console.log(projectArray);
         for(var i=0;i < projectArray.length;i++){
@@ -139,6 +175,7 @@ const ProjectsSection = () => {
         setPlumbing(true);
         setFlooring(false);
         setMaintenance(false);
+        setSelector(false);
 
         console.log(projectArray);
         for(var i=0;i < projectArray.length;i++){
@@ -160,6 +197,7 @@ const ProjectsSection = () => {
         setPlumbing(false);
         setFlooring(true);
         setMaintenance(false);
+        setSelector(false);
 
         console.log(projectArray);
         for(var i=0;i < projectArray.length;i++){
@@ -182,6 +220,7 @@ const ProjectsSection = () => {
         setFlooring(false);
         setMaintenance(true);
         setEmptyProject(true);
+        setSelector(false);
 
         console.log(projectArray);
         for(var i=0;i < projectArray.length;i++){
@@ -209,8 +248,8 @@ const ProjectsSection = () => {
                     
 
 
-                    <nav className={`mobileNav`}>
-                        <ul className={`navDrop ${isActive ? 'menuActive' : ''}`} name="job" id="job">
+                    <nav className={`mobileNav ${isActive ? 'menuActive' : ''}`}>
+                        <ul className={`navDrop ${returnSelector()}`} name="job" id="job">
                             <li className='dropOption' value="All" type='button' onClick={clickActive}>Select</li>
                             <li className='dropOption' value="All" type='button' onClick={toggleAll}>All</li>
                             <li className='dropOption' value="Electrical" type='button' onClick={electricalOption}>Electrical</li>

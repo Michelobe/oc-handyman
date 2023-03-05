@@ -44,23 +44,44 @@
     top: 2rem;
     right: 5rem;
     z-index: 6;
+    border: 5px solid #222222;
+    width: 248px;
+    height: 34px;
+    background: white;
+    overflow: hidden;
+}
+.projectsSection .projectsNav .mobileNav.menuActive{
+    height: 256px;
 }
 .projectsSection .projectsNav .mobileNav .navDrop{
     font-size: 2rem;
-    border: 5px solid #222222;
     text-transform: uppercase;
     color: #222222;
     padding: 0 .5rem .5rem .5rem;
-    height: 26px;
-    overflow: hidden;
+    height: 248px;
     position: absolute;
     top: 0;
     right: 0;
     background: white;
     z-index: 6;
 }
-.projectsSection .projectsNav .mobileNav .navDrop.menuActive{
-    height: 247.63px;
+.projectsSection .projectsNav .mobileNav .navDrop.electrical{
+    top: -3.9rem;
+}
+.projectsSection .projectsNav .mobileNav .navDrop.cabinetry{
+    top: -5.9rem;
+}
+.projectsSection .projectsNav .mobileNav .navDrop.painting{
+    top: -7.9rem;
+}
+.projectsSection .projectsNav .mobileNav .navDrop.plumbing{
+    top: -9.9rem;
+}
+.projectsSection .projectsNav .mobileNav .navDrop.flooring{
+    top: -11.9rem;
+}
+.projectsSection .projectsNav .mobileNav .navDrop.maintence{
+    top: -13.9rem;
 }
 .projectsSection .projectsNav .mobileNav .navDrop > li:hover,
 .projectsSection .projectsNav .mobileNav .navDrop > li:focus{
