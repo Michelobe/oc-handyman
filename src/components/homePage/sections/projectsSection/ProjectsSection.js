@@ -261,7 +261,7 @@ const ProjectsSection = () => {
 
 
                     <nav className={`mobileNav ${isActive ? 'menuActive' : ''}`}>
-                        <ul className={`navDrop ${selectorCounter===1 ? '' : returnSelector()}`} name="job" id="job" onClick={resetSelector}>
+                        <ul className={`navDrop ${selectorCounter===2 ? returnSelector() : ''}`} name="job" id="job" onClick={resetSelector}>
                             <li className='dropOption' value="All" type='button' onClick={clickActive}>Select</li>
                             <li className='dropOption' value="All" type='button' onClick={toggleAll}>All</li>
                             <li className='dropOption' value="Electrical" type='button' onClick={electricalOption}>Electrical</li>

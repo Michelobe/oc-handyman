@@ -292,9 +292,6 @@
     .projectsSection .projectsNav .mobileNav{
         left: 29.5%;
     }
-    .projectsSection .projectsNav .mobileNav .navDrop{
-        position: initial;
-    }
 }
 @media only screen and (max-width: 650px){
     .projectsSection .projectTiles .projectTile {
