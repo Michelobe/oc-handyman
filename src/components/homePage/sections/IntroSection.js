@@ -16,7 +16,7 @@ const IntroSection = () => {
                 </div>
                 <div className='rightColumn'>
                     <div className='headerDiv'>
-                        <h6>OC Local Handyman</h6>
+                        <h4>OC Local Handyman</h4>
                         <h2>We Work For You</h2>
                     </div>
                     <div className='infoDiv'>

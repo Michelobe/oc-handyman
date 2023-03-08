@@ -36,19 +36,8 @@
 .introSection .introSectionContainer .rightColumn {
     width: 50%;
 }
-.introSection .introSectionContainer .rightColumn .headerDiv {
-    border-left: 0.5rem solid #D90D43;
-    margin-bottom: 2rem;
-}
-.introSection .introSectionContainer .rightColumn .headerDiv h6 {
-    font-size: 1.25rem;
-    color: gray;
-    padding: 0.5rem 0 0.25rem 1.25rem;
-}
-.introSection .introSectionContainer .rightColumn .headerDiv h2 {
-    font-size: 2.5rem;
-    padding: 0.25rem 0 0.5rem 1.25rem;
-    font-weight: bold;
+.introSection .introSectionContainer .rightColumn .headerDiv{
+    color: black;
 }
 .introSection .introSectionContainer .rightColumn .infoDiv {
     padding-bottom: 2.75rem;

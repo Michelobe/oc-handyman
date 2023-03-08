@@ -12,20 +12,6 @@
 .specialServicesSection .leftColumn {
     max-width: 44%;
 }
-.specialServicesSection .leftColumn .headerDiv {
-    border-left: 0.5rem solid #D90D43;
-    margin-bottom: 1rem;
-}
-.specialServicesSection .leftColumn .headerDiv > h4 {
-    font-size: 1.25rem;
-    padding: 0.5rem 0 0.25rem 1.25rem;
-    font-weight: 600;
-}
-.specialServicesSection .leftColumn .headerDiv > h2 {
-    font-size: 2.5rem;
-    padding: 0.25rem 0 0.5rem 1.25rem;
-    font-weight: bold;
-}
 .specialServicesSection .leftColumn .headerInfo > .columnContent{
     line-height: 1.5;
     font-size: 1.15rem;

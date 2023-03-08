@@ -9,7 +9,7 @@ function TeamPage() {
             <div className='jumboTeam'>
                 <div className="container breadCrumbs">
                     <Link to="/" relative="path">
-                        <p>Home</p>
+                        <i className="fas fa-home"></i>
                     </Link>
                     <i className="fas fa-chevron-right"></i>
                     <p>Team</p>

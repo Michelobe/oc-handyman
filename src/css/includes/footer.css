@@ -3,7 +3,7 @@
 .footerSection{
     background: #222222;
     position: relative;
-    margin-top: 6rem;
+    margin-top: 10rem;
     padding-top: 14rem;
 }
 
@@ -110,7 +110,6 @@
 }
 @media only screen and (max-width: 800px){
     .footerSection{
-        margin-top: 5rem;
         padding-top: 8rem;
     }
 }
@@ -134,7 +133,6 @@
 @media only screen and (max-width: 499px){
     .footerSection{
         padding-top: 6rem;
-        margin-top: 23rem;
     }
     .footerSection .footerCta{
         top: -4rem;
