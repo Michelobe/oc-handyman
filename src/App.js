@@ -21,7 +21,7 @@ function App() {
                 <MegaNav />
                 
                 <Routes>
-                    <Route path = '/' element={<HomePage />} />
+                    <Route path = '/*' element={<HomePage />} />
                     <Route path = '/about' element={<AboutPage />} title="About" />
                     <Route path = '/experience' element={<ExperiencePage />} title="Experience" />
                     <Route path = '/services' element={<ServicesPage />} title="Services" />
