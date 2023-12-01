@@ -12,7 +12,7 @@ const CardSection = () => {
                   </div>
                   <h1>10+ Years Professional Experience</h1>
                   <p>Extensive experience allows us to get the job done right.</p>
-                  <Link to="/experience" relative="path">
+                  <Link to="/about" relative="path">
                     More Experience
                   </Link>
               </div>

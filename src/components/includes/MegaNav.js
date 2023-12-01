@@ -24,13 +24,7 @@ const MegaNav = () => {
                             <Link to="/services" relative="path">
                                 <li className="menuLink">Services</li>
                             </Link>
-                            <Link to="/projects" relative="path">
-                                <li className="menuLink">Projects</li>
-                            </Link>
-                            <Link to="/team" relative="path">
-                                <li className="menuLink">Team</li>
-                            </Link>
-                            <Link to="/" relative="path">
+                            <Link to="/contact" relative="path">
                                 <li className="menuLink">Contact</li>
                             </Link>
                         </ul>
