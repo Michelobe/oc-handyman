@@ -45,11 +45,14 @@
 }
 .jumboTron .jumboText .ctaBtn {
     background: #D90D43;
-    padding: 0.5rem 2rem;
     margin-top: 3rem;
     border: none;
+    padding: 0.5rem 2rem;
+}
+.jumboTron .jumboText .ctaBtn > a {
     color: white;
     font-size: 2rem;
+    text-decoration: none;
 }
 
 /* MEDIA QUERIES */

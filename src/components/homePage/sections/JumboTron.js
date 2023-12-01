@@ -15,7 +15,7 @@ const JumboTron = () => {
                     <br /> Handyman</span>
                 </h1>
                 <p>Professional Domestic Service Provider</p>
-                <button className='ctaBtn'>CALL</button>
+                <button className='ctaBtn'><a href="tel:7149066237">CALL</a></button>
             </div>
         </section>
     )
